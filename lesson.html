@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.1.0/github-markdown.min.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.1.0/showdown.min.js"></script>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+
+    <style>
+        .markdown-body {
+            box-sizing: border-box;
+            min-width: 200px;
+            max-width: 980px;
+            margin: 0 auto;
+            padding: 45px;
+        }
+
+        @media (max-width: 767px) {
+            .markdown-body {
+                padding: 15px;
+            }
+        }
+
+        .accordion-item.plan, .accordion-item.theory, .accordion-item.code {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="accordion">
+        <div class="accordion-item plan">
+            <h2 class="accordion-header" id="accordion-header-plan">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                    Plan
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="accordion-header-plan">
+                <div class="accordion-body">
+                    <div id="plan"></div>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item theory">
+            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="true" aria-controls="panelsStayOpen-collapseTwo">
+                    Theory
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                <div class="accordion-body">
+                    <div id="theory"></div>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item homework">
+            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="true" aria-controls="panelsStayOpen-collapseThree">
+                    Homework
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                <div class="accordion-body">
+                    <div id="homework"></div>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item code">
+            <h2 class="accordion-header" id="accordion-header-code">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-body-code" aria-expanded="true" aria-controls="panelsStayOpen-collapseThree">
+                    Code
+                </button>
+            </h2>
+            <div id="accordion-body-code" class="accordion-collapse collapse" aria-labelledby="accordion-header-code">
+                <div class="accordion-body">
+                    <div id="code"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script>
+    const queryDict = {};
+    location.search.substr(1).split("&").forEach(
+        function(item) {queryDict[item.split("=")[0]] = item.split("=")[1]}
+    );
+    showdown.extension('highlight', function () {
+        return [{
+            type: "output",
+            filter: function (text, converter, options) {
+                var left = "<pre><code\\b[^>]*>",
+                    right = "</code></pre>",
+                    flags = "g";
+                var replacement = function (wholeMatch, match, left, right) {
+                    var lang = (left.match(/class=\"([^ \"]+)/) || [])[1];
+                    left = left.slice(0, 18) + 'hljs ' + left.slice(18);
+                    if (lang && hljs.getLanguage(lang)) {
+                        return left + hljs.highlight(lang, match).value + right;
+                    } else {
+                        return left + hljs.highlightAuto(match).value + right;
+                    }
+                };
+                return showdown.helper.replaceRecursiveRegExp(text, replacement, left, right, flags);
+            }
+        }];
+    });
+
+    const converter = new showdown.Converter({extensions: ['highlight']});
+
+    let baseUrl;
+    fetch(queryDict.file)
+        .then(response => {
+            baseUrl = response.url.split("metadata.json")[0];
+            return response.json();
+        })
+        .then(metadata => {
+            if (metadata.plan) {
+                document.querySelector('.accordion-item.plan').style.display = 'block';
+                displayMdFile(baseUrl + metadata.plan, document.getElementById('plan'));
+            }
+            if (metadata.theory) {
+                document.querySelector('.accordion-item.theory').style.display = 'block';
+                displayMdFile(baseUrl + metadata.theory, document.getElementById('theory'));
+            }
+            if (metadata.homework) {
+                document.querySelector('.accordion-item.homework').style.display = 'block';
+                displayMdFile(baseUrl + metadata.homework, document.getElementById('homework'));
+            }
+            if (metadata.code) {
+                document.querySelector('.accordion-item.code').style.display = 'block';
+                const codeElement = document.getElementById('code');
+                metadata.code.forEach(codeFile => {
+                    const fileName = document.createElement('div');
+                    fileName.innerHTML = codeFile;
+                    const codeItem = document.createElement('div');
+                    codeElement.appendChild(fileName);
+                    codeElement.appendChild(codeItem);
+                    displayMdFile(baseUrl + codeFile, codeItem, "java");
+                })
+            }
+            hljs.highlightAll();
+        })
+
+    function displayMdFile(path, element, code) {
+        console.log(path, element);
+        fetch(path)
+            .then((response) => response.text())
+            .then((text) => {
+                console.log(text);
+                element.innerHTML = converter.makeHtml(code? "```" + code + "\n" + text + "\n```" : text);
+            });
+    }
+
+</script>
