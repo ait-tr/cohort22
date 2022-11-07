@@ -1,0 +1,12 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/kids_and_salary/src/Main.java",
+    "code/p_if_else/src/Main.java",
+    "code/p_min_max/src/Main.java",
+    "code/v_for_victory/src/Main.java"
+  ],
+  "video": ""
+}
