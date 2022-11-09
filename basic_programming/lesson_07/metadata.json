@@ -1,0 +1,12 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/homework2/src/Main.java",
+    "code/homework7/src/Main.java",
+    "code/ternary_operator/src/Main.java",
+    "code/three_positive/src/Main.java"
+  ],
+  "video": ""
+}
