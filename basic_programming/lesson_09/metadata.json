@@ -1,0 +1,14 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/homework_solution_01/src/Main.java",
+    "code/homework_solution_02/src/Main.java",
+    "code/homework_solution_03/src/Main.java",
+    "code/homework_solution_03/src/Main.java",
+    "code/for/src/Main.java",
+    "code/barrel_of_rain_water/src/Main.java"
+  ],
+  "video": ""
+}
