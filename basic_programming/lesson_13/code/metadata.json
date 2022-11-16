@@ -1,0 +1,14 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/homework_solution_01/src/Main.java",
+    "code/homework_solution_02/src/Main.java",
+    "code/magicBall/src/Main.java",
+    "code/random/src/Main.java"
+  ],
+  "presentation": "lesson_13.pdf",
+  "video": "https://us02web.zoom.us/rec/share/WukV4qWrPmZ0tB2aOBuUgEG5QYjYt7YqRTg7JeDkrgOZhC-hcATNSq79eBj0o-wu.fUXkeDToDEgKumc1",
+  "etc": ""
+}
