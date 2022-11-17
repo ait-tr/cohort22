@@ -1,0 +1,15 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/homework_solution_01/src/Main.java",
+    "code/homework_solution_02/src/Main.java",
+    "code/homework_solution_03/src/Main.java",
+    "code/for_each/src/Main.java",
+    "code/find_min_max_index/src/Main.java"
+  ],
+  "presentation": "lesson_13.pdf",
+  "video": "https://us02web.zoom.us/rec/share/uYURMkUfMxXKz1hh7w26jRKXPJSyV2mNwe9S0_OOtnLGRSabRBkCi8eRvjr_4ukr.aL7YFQDJ_v7mJ317",
+  "etc": ""
+}
