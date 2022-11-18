@@ -1,0 +1,12 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/bubble_sort/src/Main.java",
+    "code/homework_solution_01/src/Main.java",
+    "code/while/src/Main.java"
+  ],
+  "video": "https://us02web.zoom.us/rec/share/cbPTYAyycEthNs4VqmXNZTBD_DyCxh9bG9lw_0UIm-WCYBNL-Le-4TTJOBfQSWr4.6bZGsKpJBBqVN_QP",
+  "etc": ""
+}
