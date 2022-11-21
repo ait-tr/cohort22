@@ -1,0 +1,12 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/selection_sort/src/Main.java",
+    "code/homework_solution_01_02/src/Main.java",
+    "code/homework_solution_03/src/Main.java"
+  ],
+  "video": "https://us02web.zoom.us/rec/share/_D61SPLDId7UZ5z4vCRia5viXiGW7kOeok4uMLZdwSJmNaJGt9mbr8nhwturjB0L.lbE_6bURq7YPQmpR",
+  "etc": ""
+}
