@@ -1,0 +1,13 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/char_string/src/Main.java",
+    "code/homework_solution/src/Main.java",
+    "code/binary_search/src/Main.java"
+  ],
+  "presentation": "Lesson_17.pdf",
+  "video": "https://us02web.zoom.us/rec/share/aXkkMp4C8p0I60unqXVEcZ668ZHwXCDNlR58Y-opdLsA75eDF3B-wMyyuRWTelw.v62mGW1PWpELfxTx",
+  "etc": ""
+}
