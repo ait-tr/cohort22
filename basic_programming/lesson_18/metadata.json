@@ -1,0 +1,18 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/cipher/src/Main.java",
+    "code/homework_solution_01/src/Main.java",
+    "code/homework_solution_02/src/Main.java",
+    "code/homework_solution_03/src/Main.java",
+    "code/more_strings/src/Main.java",
+    "code/packages/src/de/ait/arrayTools/ArrayTools.java",
+    "code/packages/src/de/ait/controller/Main.java",
+    "code/packages/src/de/ait/stringTools/StringTools.java",
+    "code/shielding/src/Main.java"
+  ],
+  "video": "https://us02web.zoom.us/rec/share/mnpESPFHSONUp3dv4NAcmkUu7lPlV10zqSFBIBURbv7HWr23FJC35UA7TXeYqOzH.94jVZdnaP9ntFlm7",
+  "etc": ""
+}
