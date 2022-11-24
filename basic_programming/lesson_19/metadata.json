@@ -1,0 +1,16 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/homework_solution_01/src/de/ait/controller/Main.java",
+    "code/homework_solution_01/src/de/ait/specialTools/SpecialTools.java",
+    "code/dog/src/controller/Main.java",
+    "code/dog/src/model/Dog.java",
+    "code/getters_setters/src/controller/Main.java",
+    "code/getters_setters/src/model/Programmer.java"
+  ],
+  "presentation": "Lesson_19.pdf",
+  "video": "https://us02web.zoom.us/rec/share/v46Df1ETS7ZupUUg3FeJbbfCRdMVQHhlR5vvIDKH_LqM9AqrIYoMuQQ_hcqmy7Oh.yCK4kMwcUQ-OxTo8",
+  "etc": ""
+}
