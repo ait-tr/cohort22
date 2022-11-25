@@ -1,0 +1,15 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/homowork_solution_01/src/controller/Main.java",
+    "code/homowork_solution_01/src/model/Chicken.java",
+    "code/quiz/src/Main.java",
+    "code/scanner/src/Main.java",
+    "code/viktorina/src/Viktorina.java"
+  ],
+  "presentation": "Lesson_20.pdf",
+  "video": "https://us02web.zoom.us/rec/share/9AxtuiTV3YpySojFi2EFUxKkKl0xE8-kalKTNviUkIREBPWKyYTa3nAceFt1i7OJ.8n6zfZF9D5m45rAQ",
+  "etc": ""
+}
