@@ -1,0 +1,12 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/calculator/src/Main.java",
+    "code/strings_repeat/src/Main.java"
+  ],
+  "presentation": "Lesson_21.pdf",
+  "video": "https://us02web.zoom.us/rec/share/E9Sofm1tKqKCdE5Iooshyuxa_nbzvTaxMJtl7Q1iNArbmscm2GJ0j23Fkvi1jhlJ.f_KgIDY8ioR96--K",
+  "etc": ""
+}
