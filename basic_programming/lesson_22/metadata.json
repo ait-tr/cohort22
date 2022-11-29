@@ -1,0 +1,13 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/email_validation/src/Main.java",
+    "code/homework_solution/src/Main.java",
+    "code/triangle/src/Main.java"
+  ],
+  "presentation": "Lesson22.pdf",
+  "video": "https://us02web.zoom.us/rec/share/gXmXj6Epx4gtNY1ce9auHt39gHf25bKj1pec5ghMn4zZzLx06L42PXrMTt_rkk39.quMETu5S2wW6DUc1",
+  "etc": "reverse.jpeg"
+}
