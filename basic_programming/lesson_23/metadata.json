@@ -1,0 +1,12 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/multidimensional_arrays_intro/src/Main.java",
+    "code/start_from_capital/src/Main.java",
+    "code/string_test/src/Main.java"
+  ],
+  "video": "https://us02web.zoom.us/rec/share/kf6R-Qs88C8iEb-E3jE2YE3uw_20hCMVTkmVBowLQpbqbsZEvfQHBeA0LkCwzsZ5.h36LyluWJ4pR2uW_",
+  "etc": "reverse.jpeg"
+}
