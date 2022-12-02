@@ -1,0 +1,12 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/array_cheatsheet/src/Main.java",
+    "code/chess/src/Main.java",
+    "code/decimal_hex_binary/src/Main.java"
+  ],
+  "video": "https://us02web.zoom.us/rec/share/tcpl8jO-WRkRbWRBO9qKGN42rqVejScYiRYekb1jz0GPIgd8jFJG1XDtA0wSyAHo.6naoK6WyNGxTToK5",
+  "etc": ""
+}
