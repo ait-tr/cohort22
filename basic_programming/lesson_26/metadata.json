@@ -1,0 +1,14 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/homework_solution_01/src/Main.java",
+    "code/homework_solution_02/src/Main.java",
+    "code/language_school/src/controller/Main.java",
+    "code/language_school/src/model/Student.java"
+  ],
+  "presentation": "Lesson_26.pdf",
+  "video": "https://us02web.zoom.us/rec/share/vmUpt9272YU1lu9fgHUZaiMSyMfc87bMeU-NHD-OvIs9TalGcvsUDGRLhH10y3PC.rFaxF8z47o4M5elO",
+  "etc": ""
+}
