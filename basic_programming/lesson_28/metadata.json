@@ -3,9 +3,9 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "code/students_/src/Main.java",
-    "code/students_/src/Faculty.java",
-    "code/students_/src/Student.java"
+    "code/JurassicPark/src/Main.java",
+    "code/JurassicPark/src/Dinosaur.java",
+    "code/JurassicPark/src/Park.java"
   ],
 
   "video": "https://us02web.zoom.us/rec/share/1Ct-Ey3DQHk4RMJebfsp7phivgTJ9A8n71R9-rydbHvLumou4gpfCn_9ghBNZqlL.NVK084xY6mQRRbhu",

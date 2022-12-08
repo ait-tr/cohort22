@@ -9,7 +9,7 @@ public class Main {
         if (x2 > 12) {
             System.out.println("Months should be under 13");
         }
-        int result = x1 * 365 + x2 * 29
+        int result = x1 * 365 + x2 * 29;
         return result;
     }
 }
@@ -22,4 +22,3 @@ public class Main {
 // если метод без ретерна - то у него тип войд
 // если метод с ретерном, то у него будет тот тип такой же
 // как у того, что стоит после ретерна (String, double, int и т.д.)
-}
