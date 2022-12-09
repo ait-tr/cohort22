@@ -1,0 +1,13 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/jurassic_park/src/Main.java",
+    "code/jurassic_park/src/Dinosaur.java",
+    "code/jurassic_park/src/Park.java"
+  ],
+
+  "video": "https://us02web.zoom.us/rec/share/wX8oAjLYjiJ2N7Vym6qNcZRqWCMQCbobhJmj4Qx8B9ZYTjANm_goG7lcSR03PCoe.N9Zda8exvcJkHB9I",
+  "etc": ""
+}
