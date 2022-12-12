@@ -1,0 +1,13 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/vehicle/src/Main.java",
+    "code/vehicle/src/Car.java",
+    "code/vehicle/src/Vehicle.java"
+  ],
+
+  "video": "https://us02web.zoom.us/rec/share/eoiAFnne1cBV-nG6mOcJVZnVPmNss8AU9ilHgQdzZW5u0s8WlYMjQOdYEoLYZiCa.YRBhYxOfceWjYO7z",
+  "etc": ""
+}
