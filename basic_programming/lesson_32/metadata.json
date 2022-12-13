@@ -1,0 +1,19 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/vehicle/src/Main.java",
+    "code/vehicle/src/Car.java",
+    "code/vehicle/src/Bicycle.java",
+    "code/vehicle/src/Paraglider.java",
+    "code/vehicle/src/Vehicle.java",
+    "code/animals/src/Main.java",
+    "code/animals/src/Duck.java",
+    "code/animals/src/Lion.java",
+    "code/animals/src/Animal.java"
+  ],
+  "presentation": "Method_overloading.pdf",
+  "video": "https://us02web.zoom.us/rec/share/vDCvKPBwnvJc_mDKdAL2p0zX1zT6z0Bp8PWLi5FHP6U3Mj3GXUTqasVxZI1L4aQ2.NVV7Q3yFEciyHimr",
+  "etc": ""
+}
