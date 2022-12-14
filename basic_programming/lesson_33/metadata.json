@@ -1,0 +1,19 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/homework_solution_01/src/Main.java",
+    "code/homework_solution_01/src/Cyclist.java",
+    "code/homework_solution_01/src/Skier.java",
+    "code/homework_solution_01/src/Sportsman.java",
+    "code/waste_recycling/src/Main.java",
+    "code/waste_recycling/src/Glass.java",
+    "code/waste_recycling/src/Organic.java",
+    "code/waste_recycling/src/Plastic.java",
+    "code/waste_recycling/src/Waste.java"
+  ],
+  "presentation": "Method_overloading.pdf",
+  "video": "https://us02web.zoom.us/rec/share/vDCvKPBwnvJc_mDKdAL2p0zX1zT6z0Bp8PWLi5FHP6U3Mj3GXUTqasVxZI1L4aQ2.NVV7Q3yFEciyHimr",
+  "etc": ""
+}
