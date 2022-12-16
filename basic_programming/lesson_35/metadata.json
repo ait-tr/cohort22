@@ -1,0 +1,17 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/hospital/src/controller/Main.java",
+    "code/hospital/src/model/Doctor.java",
+    "code/hospital/src/model/MyDate.java",
+    "code/hospital/src/model/Patient.java",
+    "code/hospital/src/model/Person.java",
+    "code/auto_service/src/controller/Main.java",
+    "code/auto_service/src/model/Car.java",
+    "code/auto_service/src/model/Tire.java"
+  ],
+  "video": "https://us02web.zoom.us/rec/share/xzem2YIXKBmf8R38iE1biqMj4AYdhF34Y1FmROKwTO9Y7Uc2UrFbG_TG9WwcFfor.GG0Qif60igjPrlF1",
+  "etc": ""
+}
