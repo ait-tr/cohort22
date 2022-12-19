@@ -1,0 +1,12 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/cash_register/src/Main.java",
+    "code/cash_register/src/register/Row.java",
+    "code/cash_register/src/register/Bill.java",
+    "code/cash_register/src/register/Register.java"
+  ],
+  "video": "https://us02web.zoom.us/rec/share/ffOQnugat8jKhcXAyAlyqdigvBx356oj7p_i-5PAvgIPz1fx84eB_cPV9XwjoYPa.iWwIUm5SqAw_PsaT"
+}
