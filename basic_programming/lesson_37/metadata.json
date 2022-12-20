@@ -1,0 +1,16 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/auto_service/src/controller/Main.java",
+    "code/auto_service/src/model/Car.java",
+    "code/auto_service/src/model/Mechanic.java",
+    "code/auto_service/src/model/Tire.java",
+    "code/auto_service/src/model/Vehicle.java",
+    "code/orange_tree/src/controller/Main.java",
+    "code/orange_tree/src/model/Orange.java"
+  ],
+  "video": "https://us02web.zoom.us/rec/share/CZ4pqKuzsrkF8A740TnrEyzFE45H8Iqx80ckERYnGmMU1p0KMH-Z4Shdmk43Ga2E.5hoJSV3g4XkuLtm4",
+  "etc": ""
+}
