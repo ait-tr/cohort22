@@ -1,0 +1,13 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/orange_tree/src/controller/Main.java",
+    "code/orange_tree/src/model/Farmer.java",
+    "code/orange_tree/src/model/Orange.java",
+    "code/orange_tree/src/model/OrangeTree.java"
+  ],
+  "video": "https://us02web.zoom.us/rec/share/Q2_xsv1MOvz42yd0q_qeFPo0qkB87EpWWdVlDGPhYqwU2eNwZN4SfK2f-Lbek18C.6rCnpu6N-BlFYAdL",
+  "etc": ""
+}
