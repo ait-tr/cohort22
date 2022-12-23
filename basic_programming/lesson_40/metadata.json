@@ -1,0 +1,21 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/array_list_2/src/Main.java",
+    "code/array_list_2/src/Experiment.java",
+    "code/equals_objects/src/Chair.java",
+    "code/equals_objects/src/Main.java",
+    "code/homework_solution/src/Main.java",
+    "code/homework_solution/src/Drink.java",
+    "code/homework_solution/src/SoftDrink.java",
+    "code/homework_solution/src/StrongDrink.java",
+    "code/mobile_phone/src/controller/Main.java",
+    "code/mobile_phone/src/model/Telephone.java",
+    "code/mobile_phone/src/model/Contact.java"
+  ],
+  "video": "https://us02web.zoom.us/rec/share/ywCji_zmi7lrH1lqX7MQ3-Wqf0RKI1UNRZo5ugNruvHsMowIr2ziXByjl021eGoz.agTo1CoxhozX_F4m",
+  "presentation": "arrayList.pdf",
+  "etc": ""
+}
