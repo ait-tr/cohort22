@@ -1,6 +1,6 @@
 
 ## JUnit
-Ссылка на презентацию: [JUnit 5](https://github.com/ait-tr/cohort22/blob/main/basic_programming/lesson_41/jUnit.pdf)
+Ссылка на презентацию: [JUnit 5](https://github.com/ait-tr/cohort22/blob/main/basic_programming/lesson_41/jUnit_5.pdf)
 
 
 ### Тестирование ПО
