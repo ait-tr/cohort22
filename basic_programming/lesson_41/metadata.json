@@ -1,0 +1,16 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/homework_solution/src/controller/Main.java",
+    "code/homework_solution/src/model/Contact.java",
+    "code/homework_solution/src/model/Telephone.java",
+    "code/intro_JUnit5/src/Coffee.java",
+    "code/intro_JUnit5/src/CoffeeTest.java",
+    "code/intro_JUnit5/src/Main.java"
+  ],
+  "video": "https://us02web.zoom.us/rec/share/JNOtGp2M22DZODMDftVa_Lchmf8TJbd3C3X4LhpzhSzaUSht1e76bnr2VRYFi7qO.cXmlJtVg44nSIncn",
+  "presentation": "jUnit.pdf",
+  "etc": ""
+}
