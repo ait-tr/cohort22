@@ -1,0 +1,15 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/homework_solution_01/src/Human.java",
+    "code/homework_solution_01/src/HumanTest.java",
+    "code/homework_solution_01/src/Main.java",
+    "code/intro_static/src/Butterfly.java",
+    "code/intro_static/src/Main.java"
+  ],
+  "video": "https://us02web.zoom.us/rec/share/uSfj44kDSteHlA8WwILzxHr9bJ2miso6FhmCSpJbrrMVuXAfalBaTbn88iTtIyqb.dbuft4USPoWTuOLt",
+  "presentation": "static.pdf",
+  "etc": ""
+}
