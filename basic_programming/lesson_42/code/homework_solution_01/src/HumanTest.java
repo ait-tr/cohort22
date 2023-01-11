@@ -27,6 +27,7 @@ class HumanTest {
     void displayAgeCategory2() {
         human.setAge(6);
         Assertions.assertEquals("child", human.displayAgeCategory());
+
     }
 
     @Test

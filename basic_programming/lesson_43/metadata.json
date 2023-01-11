@@ -1,0 +1,24 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/homework_solution_01/src/Wine.java",
+    "code/homework_solution_01/src/Main.java",
+    "code/homework_solution_02/src/Main.java",
+    "code/homework_solution_02/src/MainTest.java",
+    "code/interface_introduction/src/Main.java",
+    "code/interface_introduction/src/Bicycle.java",
+    "code/interface_introduction/src/Car.java",
+    "code/interface_introduction/src/Drivable.java",
+    "code/interface_introduction/src/Main.java",
+    "code/interface_introduction/src/ParentInterface.java",
+    "code/Magazine/src/Book.java",
+    "code/Magazine/src/Magazine.java",
+    "code/Magazine/src/Main.java",
+    "code/Magazine/src/Printable.java"
+  ],
+  "video": "https://us02web.zoom.us/rec/share/hoCIRKZzNN2tOD_Bn8goQba982kbeRhS0MdCiBj7-h7PwVZRiFxZU2nPNKUhaTI_.dG43YIFRKBQkvlKO",
+  "presentation": "interface.pdf",
+  "etc": ""
+}
