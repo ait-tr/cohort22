@@ -1,0 +1,16 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/single_linked_list/src/Main.java",
+    "code/single_linked_list/src/SLinkedList.java",
+    "code/Magazine/src/Book.java",
+    "code/Magazine/src/Magazine.java",
+    "code/Magazine/src/Main.java",
+    "code/Magazine/src/Printable.java"
+  ],
+  "video": "https://us02web.zoom.us/rec/share/6GjEH6QD5U3giMdvIl3gAzFbGoMv_tI8m5NbKUNmMCCxYqUDw9ir-hrc5SNd-wxv.LnjMXi93j5TXkdwc",
+  "presentation": "linkedList.pdf",
+  "etc": ""
+}
