@@ -1,0 +1,16 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/homework_solution_01/src/Main.java",
+    "code/homework_solution_01/src/MainTest.java",
+    "code/exceptions_introduction/src/Main.java",
+    "code/exceptions_intro_part2/src/FridayNightException.java",
+    "code/exceptions_intro_part2/src/Girl.java",
+    "code/exceptions_intro_part2/src/Main.java"
+  ],
+  "video": "https://us02web.zoom.us/rec/share/6GjEH6QD5U3giMdvIl3gAzFbGoMv_tI8m5NbKUNmMCCxYqUDw9ir-hrc5SNd-wxv.LnjMXi93j5TXkdwc",
+  "presentation": "exceptions.pdf",
+  "etc": ""
+}
