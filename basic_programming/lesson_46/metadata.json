@@ -1,0 +1,18 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/homework_solution_01/src/Main.java",
+    "code/homework_solution_02/src/Main.java",
+    "code/homework_solution_02/src/Dog.java",
+    "code/homework_solution_02/src/GoForAWalkException.java",
+    "code/comparable_intro/src/Main.java",
+    "code/comparable_intro/src/Student.java",
+    "code/bicycle_sorting/src/Main.java",
+    "code/bicycle_sorting/src/Bicycle.java"
+  ],
+  "video": "https://us02web.zoom.us/rec/share/6GjEH6QD5U3giMdvIl3gAzFbGoMv_tI8m5NbKUNmMCCxYqUDw9ir-hrc5SNd-wxv.LnjMXi93j5TXkdwc",
+  "presentation": "exceptions.pdf",
+  "etc": ""
+}
