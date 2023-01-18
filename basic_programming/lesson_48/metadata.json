@@ -1,0 +1,29 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/homework_solution_02/src/Main.java",
+    "code/homework_solution_02/src/Fruit.java",
+    "code/homework_solution_02/src/Apricot.java",
+    "code/homework_solution_02/src/Apple.java",
+    "code/homework_solution_02/src/Pear.java",
+    "code/generics_basics/src/Main.java",
+    "code/generics_basics/src/Fruit.java",
+    "code/generics_basics/src/Eatable.java",
+    "code/generics_basics/src/Cucumber.java",
+    "code/generics_basics/src/BoxOfString.java",
+    "code/generics_basics/src/BoxOfFruits.java",
+    "code/generics_basics/src/BoxOfDoubles.java",
+    "code/generics_basics/src/Box.java",
+    "code/generics_basics/src/Banana.java",
+    "code/backpack_project/src/Main.java",
+    "code/backpack_project/src/Fiction.java",
+    "code/backpack_project/src/Drama.java",
+    "code/backpack_project/src/Book.java",
+    "code/backpack_project/src/Backpack.java"
+
+  ],
+  "video": "https://us02web.zoom.us/rec/share/GcIrJ9jPvMiY44eclCkpxCW-J7cVLy2QIWxhblcVxJJtGBRXCJAVO9H49v7pYVPi.rPKRDjcTIoC4cqTm",
+  "etc": ""
+}
