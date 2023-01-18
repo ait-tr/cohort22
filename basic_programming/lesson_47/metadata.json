@@ -1,0 +1,20 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/homework_solution_01/src/Alcohol.java",
+    "code/homework_solution_01/src/Furniture.java",
+    "code/homework_solution_01/src/Main.java",
+    "code/homework_solution_01/src/Product.java",
+    "code/comparator_introduction/src/Main.java",
+    "code/comparator_introduction/src/Insect.java",
+    "code/comparator_introduction/src/InsectsByNameComparator.java",
+    "code/comparator_introduction/src/InsectsByNumberOfEyesComparator.java",
+    "code/comparator_introduction/src/InsectsByWingsComparator.java"
+
+  ],
+  "video": "https://us02web.zoom.us/rec/share/iDDLKPFS5UOvBMcJJD1fO4GFcPBazfF5z_sCrvUZjATFMR5rvOr0jibnCN1uuC1q.eJ9iIyvFQ_12pV7x",
+  "presentation": "exceptions.pdf",
+  "etc": ""
+}
