@@ -1,2 +1,3 @@
-public class Food implements Eatable{
+public abstract class Food implements Eatable {
+
 }
