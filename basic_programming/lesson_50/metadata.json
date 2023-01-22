@@ -1,0 +1,14 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/iterator_intro/src/Main.java",
+    "code/homework_solution_01/src/Main.java",
+    "code/homework_solution_01/src/HatCollection.java",
+    "code/homework_solution_01/src/Hat.java"
+
+  ],
+  "video": "https://us02web.zoom.us/rec/share/9bTn2EnRE62yZk75AndRXsZgpXpBh2_RX91Ne1GpfWvaliS_XF4aXj8_LyMlnDfj.KVEJcg2eUdxDLjkB",
+  "etc": ""
+}
