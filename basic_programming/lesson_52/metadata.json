@@ -1,0 +1,20 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/homowork_solution_01/src/Main.java",
+    "code/homowork_solution_01/src/Building.java",
+    "code/homework_solution_02/src/Main.java",
+    "code/homework_solution_02/src/Ship.java",
+    "code/comparator_2/src/Main.java",
+    "code/comparator_2/src/Jewelery.java",
+    "code/comparator_2/src/Person.java",
+    "code/comparator_2/src/PersonByAgeComparator.java",
+    "code/cookies/src/Main.java",
+    "code/cookies/src/Food.java",
+    "code/cookies/src/Cookable.java"
+  ],
+  "video": "",
+  "etc": ""
+}
