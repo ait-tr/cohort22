@@ -1,0 +1,17 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/hashMap_intro/src/Main.java",
+    "code/hashMap_intro/src/Pet.java",
+    "code/hashMap_intro/src/Snake.java",
+    "code/hashMap_intro/src/Hamster.java",
+    "code/hashMap_intro/src/Feed.java",
+    "code/hashMap_intro/src/Client.java",
+    "code/hashMap_intro/src/Cat.java"
+
+  ],
+  "video": "",
+  "etc": ""
+}
