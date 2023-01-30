@@ -1,0 +1,22 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/homework_solution_01/src/Main.java",
+    "code/homework_solution_01/src/MainTest.java",
+    "code/homework_solution_01/src/Panda.java",
+    "code/homework_solution_02/src/Main.java",
+    "code/homework_solution_01/src/Bar.java",
+    "code/homework_solution_01/src/Drink.java",
+    "code/homework_solution_01/src/Coffee.java",
+    "code/homework_solution_01/src/Cola.java",
+    "code/homework_solution_01/src/Drink.java",
+    "code/homework_solution_01/src/Natural.java",
+    "code/homework_solution_01/src/Tee.java",
+    "code/treeSet_intro/src/Main.java",
+    "code/treeSet_intro/src/Car.java"
+  ],
+  "video": "",
+  "etc": "https://us02web.zoom.us/rec/share/l6cisPGAgMHdIyXTrkuPCwUnuIgptpOK2-Uqtnlr12f7TioOXbRwt6eXO0KkrMj6.KZFTTJjSkZOAasYR"
+}
