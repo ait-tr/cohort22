@@ -1,0 +1,12 @@
+{
+  "plan": "plan.md",
+  "theory": "",
+  "homework": "",
+  "code": [
+    "code/vending_machine/src/Main.java",
+    "code/cheer_up/src/Main.java",
+    "code/cheer_up2/src/Main.java",
+    "code/types_and_print/src/Main.java"
+  ],
+  "video": ""
+}
