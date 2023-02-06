@@ -1,0 +1,16 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/homework_solution_01/src/Main.java",
+    "code/homework_solution_01/src/Violin.java",
+    "code/homework_solution_02/src/Main.java",
+    "code/priority_queue/src/Main.java",
+    "code/wild_west/src/Main.java",
+    "code/wild_west/src/Saloon.java",
+    "code/wild_west/src/Cowboy.java"
+  ],
+  "video": "",
+  "etc": ""
+}
