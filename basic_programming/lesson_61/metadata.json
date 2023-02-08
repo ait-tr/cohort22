@@ -1,0 +1,25 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/enum_intro/src/Main.java",
+    "code/enum_intro/src/Apple.java",
+    "code/enum_intro/src/Color.java",
+    "code/enum_intro/src/Operation.java",
+    "code/enum_intro/src/Temperature.java",
+    "code/homework_solution_01/src/Main.java",
+    "code/homework_solution_01/src/Hospital.java",
+    "code/homework_solution_01/src/Patient.java",
+    "code/shoes/src/Main.java",
+    "code/shoes/src/Leather.java",
+    "code/shoes/src/Bag.java",
+    "code/sizes_of_coffee/src/Main.java",
+    "code/sizes_of_coffee/src/Coffee.java",
+    "code/sizes_of_coffee/src/Size.java"
+
+
+  ],
+  "video": "",
+  "etc": ""
+}
