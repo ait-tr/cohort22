@@ -1,0 +1,21 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/homework_solution_01/src/Main.java",
+    "code/homework_solution_01/src/Car.java",
+    "code/homework_solution_01/src/Fuel.java",
+    "code/lambdas_intro/src/Main.java",
+    "code/lambdas_intro/src/Devider.java",
+    "code/lambdas_intro/src/ManyStrInterface.java",
+    "code/lambdas_intro/src/NoArgInterface.java",
+    "code/lambdas_intro/src/OneArgInterface.java",
+    "code/lambdas_intro/src/Operationable.java",
+    "code/lambdas_intro/src/TwoStringInterface.java",
+    "code/lambdas_intro/src/VoidInterface.java"
+  ],
+  "video": "",
+  "presentation": "lambdas.pdf",
+  "etc": ""
+}
