@@ -3,7 +3,7 @@
 1. Разбор домашнего задания
 2. Повторение элементов, тегов, атрибутов
 3. Изучение списков и таблиц
-4. Решение задачи [html_table_ul](https://github.com/AlisherKhamidov/html_table_ul)
+4. Решение задачи [html-table-ul](https://github.com/AlisherKhamidov/html_table_ul)
 
 
 
