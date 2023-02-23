@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Letter</title>
+</head>
+<body>
+<h1>Письмо Санте</h1>
+<form action="otherpage.html">
+    <p>
+        Дорогой друг, не стесняйся, расскажи Санте
+        о том, кто ты, и о том, что ты хочешь получить на Рождество!
+    </p>
+    <input id="login" name="login" type="text" placeholder="Введите логин" required>
+    <br>
+    <input id="password" name="password" type="text" placeholder="Введите пароль" required>
+    <br>
+    <input id="name" name="name" type="text" placeholder="Введите имя" required>
+    <br>
+
+    <label>Пол:</label>
+    <br>
+    <label for="boy">мальчик</label>
+    <input id="boy" type="radio" name="gender" value="boy" required>
+
+    <label for="girl">девочка</label>
+    <input id="girl" type="radio" name="gender" value="girl" required>
+    <br>
+    <label for="toy-color">День рождения:</label>
+    <input id="toy-color" type="date">
+    <br>
+    <label for="city">Ваш город:</label>
+    <br>
+    <select name="city" id="city">
+        <option value="Saint Petersburg">Санкт-Петербург</option>
+        <option value="Berlin">Берлин</option>
+    </select>
+    <br>
+    <input id="hat-color" type="color" required>
+    <label for="hat-color">Цвет шапочки:</label>
+    <br>
+    <input id="costume-color" type="color" required>
+    <label for="costume-color">Цвет костюмчика:</label>
+    <br>
+    <button type="submit">Отправить форму</button>
+</form>
+</body>
+</html>

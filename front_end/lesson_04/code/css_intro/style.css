@@ -1,0 +1,26 @@
+p {
+  color: blue;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* селектор по тегу - без всего */
+h1 {
+  color: red
+}
+/* селектор по id - с решеточкой */
+#heading2 {
+  color: green;
+  text-align: center;
+}
+/* селектор по class - с "." перед именем */
+.right-red {
+  color: red;
+  text-align: right;
+}
+
+.bold{
+  font-weight: bold;
+  color:aquamarine;
+}
+
