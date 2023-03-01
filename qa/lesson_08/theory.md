@@ -46,6 +46,10 @@ Allpairs download https://www.satisfice.com/download/allpairs
 
 5. Построить тестовую таблицу
 
+Презентация https://bit.ly/3y3btFq
+
+Примеры https://bit.ly/3m7P3QC
+
 ## Веб тестирование
 #### Что необходимо тестировать?
 
@@ -74,5 +78,9 @@ Allpairs download https://www.satisfice.com/download/allpairs
 - Частичная видимость кода
 
 - Кроссплатформенность
+
+Презентации https://bit.ly/3kvC8I4
+
+https://bit.ly/3YaXMPs
 
 
