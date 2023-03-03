@@ -1,0 +1,41 @@
+/* ваш код */
+
+.card {
+  position: relative;
+  height: fit-content;
+  width: fit-content;
+  margin: 25px;
+}
+
+.poster:hover {
+  filter: brightness(60%);
+}
+
+.poster {
+  height: 300px;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: rgb(59, 179, 58);
+}
+
+.rating {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 5px;
+  color: white;
+}
+
+.tickets {
+  background-color: rgb(255, 86, 0);
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  padding: 5px;
+  color: white;
+}

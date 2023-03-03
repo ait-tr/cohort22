@@ -1,0 +1,19 @@
+.example {
+  /* задали ширину высоту */
+  width: 200px;
+  height: 200px;
+  /* залили фон цветом */
+  background-color: blueviolet; 
+  /* скруглили края */
+  border-radius: 20px;
+  /* задали границу - толшину в пикселях, указали солид и сделали ее цветной */
+  border: 25px solid coral;
+  /* отсуп от других элементов */
+  margin: 60px;
+   /* отсуп от других элементов */
+  /* margin-left: 20px;
+  margin-right: 30px; */
+  /* сверху справа снизу слева */
+  /* margin: 20px 10px 5px 5px; */
+  padding: 30px;
+}

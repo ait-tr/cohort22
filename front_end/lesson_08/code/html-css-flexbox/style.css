@@ -1,0 +1,24 @@
+.container {
+  background-color: #0d7d45;
+  padding: 10px;
+  display: flex;
+  /* по горизонтали */
+  justify-content: flex-end;
+  /* по вертикали */
+  align-items: flex-start;
+  height: 800px;
+  /* направление главной оси */
+  flex-direction: row;
+  /* перенос */
+  flex-wrap: wrap;
+
+  align-content: space-between;
+}
+
+.box {
+  background-color: #e9dc8b;
+  margin: 10px;
+  width: 250px;
+  height: 400px;
+}
+

@@ -1,0 +1,23 @@
+/* ваше решение здесь */
+
+.btn {
+  margin: 15px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.dark-green {
+  background-color: #778D45;
+}
+
+.light-green {
+  background-color: #AEC09A;
+}
+
+.btn:hover {
+  color: black;
+}

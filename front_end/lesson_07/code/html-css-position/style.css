@@ -1,0 +1,104 @@
+* {
+  color: rgb(0, 0, 0);
+  font-size: 40px;
+  margin: 10px;
+}
+.parent {
+  height: 400vh;
+}
+
+/* relative position */
+
+/* .parent {
+  background-color: greenyellow;
+  padding: 20px;
+}
+
+.child1 {
+  background-color: orange;
+  position: relative;
+  top: 50px;
+  left: 20px;
+}
+
+.child2 {
+  background-color:blue;
+}
+
+.child3 {
+  background-color: red;
+} */
+
+
+
+
+/* absolute position - распологается относительно окна просмотра,
+ или если есть у предка указан релатив - то отностиельно этого предка- */
+
+ /* .parent {
+  background-color: greenyellow;
+  padding: 20px;
+  position: relative;
+}
+
+.child1 {
+  background-color: orange;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  
+}
+
+.child2 {
+  background-color:blue;
+}
+
+.child3 {
+  background-color: red;
+} */
+
+
+
+/* fixed - когда скролим стоит на месте. 
+Распологается относительно окна просмотра*/
+/* 
+.parent {
+  background-color: greenyellow;
+  padding: 20px;
+}
+
+.child1 {
+  background-color: orange;
+  position: fixed;
+  bottom: 50px;
+  right: 40px;
+}
+
+.child2 {
+  background-color:blue;
+}
+
+.child3 {
+  background-color: red;
+} */
+
+
+/* sticky */
+.parent {
+  background-color: greenyellow;
+  padding: 20px;
+}
+
+.child1 {
+  background-color: orange;
+}
+
+.child2 {
+  background-color:blue;
+  position: sticky;
+  top: 10px; 
+}
+
+.child3 {
+  background-color: red;
+}

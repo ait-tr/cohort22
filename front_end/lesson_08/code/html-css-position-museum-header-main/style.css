@@ -1,0 +1,42 @@
+main {
+  height: 200vh;
+}
+
+/* твой код */
+body {
+  margin: 8px 0px;
+}
+
+.logo {
+  margin: 10px;
+}
+
+.navbar {
+  background-color: rgb(102, 102, 102);
+  padding: 20px;
+  position: sticky;
+  top: 0;
+}
+
+.navbar:hover {
+  background-color: black;
+}
+
+.nav-element {
+  margin: 20px;
+  color: white;
+  font-size: 25px;
+  font-family: "NarrowNews";
+}
+
+.nav-element:hover {
+  text-decoration: underline;
+}
+
+
+@font-face {
+  font-family: "NarrowNews";
+  src: url("./fonts/ClanOT-NarrowNews.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
