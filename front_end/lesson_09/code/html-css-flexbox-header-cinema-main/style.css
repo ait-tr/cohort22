@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+}
+
+main {
+  height: 400vh;
+}
+
+header {
+  background-image: url(./imagebanner.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  height: 155px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+.nav-el-container {
+  display: flex;
+  align-items: center;
+}
+
+.nav-el {
+  margin: 16px;
+  opacity: 0.5;
+}
+
+.nav-el:hover {
+  opacity: 1;
+  transition: 1s;
+}
+
+.nav-line {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  height: 36px;
+  margin-right: 40px;
+}
+
+.play-text,
+.oscar-text {
+  color: white;
+}
+
+.icon {
+  margin-right: 6px;
+}
+
+.nav-input {
+  border: none;
+  outline: none;
+  padding: 6px;
+  border-radius: 6px;
+  width: 200px;
+  margin-left: 40px;
+}
+
+.nav-btn {
+  color: white;
+  background: rgb(241, 73, 236);
+  background: linear-gradient(115deg, rgba(241, 73, 236, 1) 20%, rgba(125, 140, 245, 1) 47%, rgba(0, 212, 255, 1) 76%);
+  border: none;
+  padding: 10px 18px;
+  border-radius: 16px;
+  height: 30px;
+  width: 73px;
+  font-size: 14px;
+}
