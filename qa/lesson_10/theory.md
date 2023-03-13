@@ -15,3 +15,9 @@ http://bit.ly/41OCV7r
 - поддержка как ручного, так и автоматизированного выполнения тестов
 
 Презентация 
+
+https://bit.ly/3JBsdKB
+
+TestLink tutorial
+
+http://bit.ly/3fk4EW8
