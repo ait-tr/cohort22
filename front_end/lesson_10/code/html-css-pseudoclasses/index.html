@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <h1>:Псевдоклассы </h1>
+  <h2>:hower</h2>
+  <p> Мы поговорим про <span>псевдоклассы</span></p>
+  <p>:hover работает, когда наводим курсор на элемент</p>
+
+
+  <h1>Псевдоэлементы</h1>
+  <h2> ::before, ::after, </h2>
+
+
+  <div class="target">Привет я цель</div>
+
+  <h2>:first-child, :last-child, :nth-child(2)</h2>
+  <div class="animals">
+    <div class="animal">Панда</div>
+    <div class="animal">Единорог</div>
+    <div class="animal">Носорог</div>
+  </div>
+
+  <div class="animals">
+    <div>
+      <div class="animal">Панда</div>
+      <div class="animal">Единорог</div>
+      <div class="animal">Носорог</div>
+    </div>
+  </div>
+
+<!-- непосредственно в родителе: .monkeys .human-->
+
+  <div class="monkeys">
+    <div class="human">human1</div>
+  </div>
+
+<!-- без родителя: .human -->
+  <div class="human">human2</div>
+
+<!-- между предком и ребенком еще один див: .monkeys>.human-->
+  <div class="monkeys">
+    <div>
+      <div class="human">human3</div>
+    </div>
+  </div>
+
+  <div class="box">
+    <div class="circle"></div>
+    <div class="circle2"></div>
+    <div class="triangle"></div>
+    <div class="triangle2"></div>
+  </div>
+
+
+</body>
+
+</html>

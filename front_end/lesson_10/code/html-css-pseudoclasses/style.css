@@ -1,0 +1,95 @@
+span:hover {
+  color: aquamarine;
+}
+
+.target::before {
+  content: "Фраза, которую мы вставили перед целью. ";
+}
+
+.animal:hover::after {
+  content: "\1f43c";
+}
+
+.animal:before {
+  content: " - ";
+}
+
+.animal:first-child {
+  color: yellowgreen;
+}
+
+.animal:first-child::before {
+  content: " - \1f43c ";
+}
+
+.animal:last-child {
+  color: lightpink;
+}
+
+.animal:last-child::before {
+  content: " - \1f98f ";
+}
+
+.animal:nth-child(2)::before {
+  content: " - \1f984 ";
+}
+
+/* только ближайший наследник monkeys, если он human */
+.monkeys>.human {
+  color: blue;
+}
+
+/* любой наследний monkeys, если он human */
+/* .monkeys .human {
+  color: blue;
+} */
+
+.box {
+  background-color: bisque;
+  width: 300px;
+  height: 300px;
+  margin: 40px;
+  position: relative;
+  z-index: ;
+}
+
+.circle {
+  height: 120px;
+  width: 120px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  left: 40px;
+  top: 40px;
+}
+
+.circle2 {
+  height: 120px;
+  width: 120px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  right: 40px;
+  top: 40px;
+}
+
+.triangle {
+  background-color: black;
+  height: 120px;
+  width: 120px;
+  position: absolute;
+  top: 90px;
+  left: 90px;
+  transform: rotate(45deg);
+}
+
+.triangle2 {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-top: 60px solid black;
+  left: 120px;
+  top: 10px;
+}
