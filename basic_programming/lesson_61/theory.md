@@ -1,7 +1,7 @@
 
 ## Enum
 
-Ссылка на презентацию: [Enum](https://github.com/ait-tr/cohort22/blob/main/basic_programming/lesson_61/enum.pdf)  
+Ссылка на презентацию: [ссылка](https://github.com/ait-tr/cohort22/blob/main/basic_programming/lesson_02/enum.pdf)  
 
 
  
