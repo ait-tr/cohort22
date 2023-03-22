@@ -3,7 +3,7 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "code/QA22_FirstSeleniumProject/src/test/java/FirstSeleniumTest.java",
+    "code/QA22_FirstSeleniumProject/src/test/java/FirstSeleniumTest.java"
   ],
   "video": ""
 }
