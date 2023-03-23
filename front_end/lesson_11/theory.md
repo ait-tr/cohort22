@@ -1,5 +1,5 @@
 
-## CSS flexbox
+## HTML Dom, EventListener, let, const
 
 Ссылка на презентацию: [HTML DOM](https://github.com/ait-tr/cohort22/blob/main/front_end/lesson_11/js-dom.pdf)  
 
