@@ -20,3 +20,6 @@
 - By.tagName
 
 - By.partialLinkText
+
+[Презентация]
+[Chropath](https://chrome.google.com/webstore/detail/chropath/ljngjbnaijcbncmcnjfhigebomdlkcjo)
