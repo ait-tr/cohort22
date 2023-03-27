@@ -65,11 +65,14 @@ public class SeleniumLocatorsTests {
         //id -> xpath(//*[@id='value'])
         // driver.findElement(By.id("city"));
         driver.findElement(By.xpath("//*[@id='city']"));
+
         //className -> xpath(//*[@class='value'])
         //  driver.findElement(By.className("input-label"));
         driver.findElement(By.xpath("//*[@class='input-label']"));
+
         //attribute -> xpath([//*[@attr='value']])
         driver.findElement(By.xpath("//*[@href='/search']"));
+
         //contains, end on, start -> //*[contains(.,'....')]
         driver.findElement(By.xpath("//*[contains(.,'ate')]"));
         //start -> //*[starts-with(@attr,'...')]

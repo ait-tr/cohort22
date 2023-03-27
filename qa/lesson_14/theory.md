@@ -22,4 +22,5 @@
 - By.partialLinkText
 
 [Презентация](https://docs.google.com/presentation/d/1FsMWpHGkMu5TGW9Un6DHpDJ23oRCLuzi/edit?usp=share_link&ouid=100462493827587974016&rtpof=true&sd=true)
+
 [Chropath](https://chrome.google.com/webstore/detail/chropath/ljngjbnaijcbncmcnjfhigebomdlkcjo)
