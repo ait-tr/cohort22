@@ -1,0 +1,10 @@
+.box {
+  margin: 40px;
+  padding: 30px;
+  width: 300px;
+  height: 450px;
+  color: black;
+  font-size: 25px;
+  background: rgb(219, 241, 73);
+  background: linear-gradient(115deg, rgba(219, 241, 73, 1) 24%, rgba(241, 73, 236, 1) 52%, rgba(0, 54, 255, 1) 80%);
+}

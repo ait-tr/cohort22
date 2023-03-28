@@ -1,0 +1,15 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "./code/homework_solution_01/index.js",
+    "./code/homework_solution_01/api/gibson.json",
+    "./code/object_destructuring/index.js",
+    "./code/simple_weather/index.js",
+    "./code/simple_weather/index.html",
+    "./code/simple_weather/index.css"
+  ],
+  "video": "",
+  "etc": ""
+}
