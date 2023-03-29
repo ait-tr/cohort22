@@ -2,9 +2,9 @@
   "plan": "plan.md",
   "homework": "homework.md",
   "code": [
-    "code/QA22_PhoneBook/src/test/java/TestBase.java",
-    "code/QA22_PhoneBook/src/test/java/HomePageTests.java",
-    "code/QA22_PhoneBook/src/test/java/CreateAccountTests.java"
+    "code/QA22_PhoneBookProject/src/test/java/TestBase.java",
+    "code/QA22_PhoneBookProject/src/test/java/HomePageTests.java",
+    "code/QA22_PhoneBookProject/src/test/java/CreateAccountTests.java"
   ],
   "video": ""
 }
