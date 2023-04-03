@@ -11,19 +11,6 @@ public class HomePageTests extends TestBase{
         // System.out.println("Home Component is " + isHomeComponentPresent());
         // isHomeComponentPresent2();
         // isElementPresent(By.cssSelector("div:nth-child(2)>div>div"));
-        Assert.assertTrue(isElementPresent2(By.cssSelector("div:nth-child(2)>div>div")));
-    }
-
-    public boolean isHomeComponentPresent() {
-        return driver.findElements(By.cssSelector("div:nth-child(2)>div>div")).size()>0;
-    }
-
-    public boolean isHomeComponentPresent2() {
-        try {
-            driver.findElement(By.cssSelector("div:nth-child(2)>div>div"));
-            return true;
-        }catch (NoSuchElementException ex) {
-            return false;
-        }
+        Assert.assertTrue(isHomeComponentPresent());
     }
 }
