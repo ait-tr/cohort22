@@ -4,7 +4,6 @@
   "homework": "homework.md",
   "code": [
     "./code/my-app/src/Counter/Counter.tsx",
-    "./code/my-app/src/Child/Child.tsx",
     "./code/my-app/src/index.tsx"
   ],
   "video": "",
