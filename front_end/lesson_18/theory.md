@@ -13,10 +13,22 @@
 - Добавьте в него следующую строку:
 ESLINT_NO_DEV_ERRORS=true
 
+### Запустите в терминале команды: 
+- npm install --save-dev eslint-config-airbnb
+- npm install --save-dev eslint-config-airbnb-typescript
+После выполнения команд, у вас package-json у вас появится следующее свойство: 
+```json lines
+  "devDependencies": {
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-typescript": "^17.0.0"
+  }
+```
+
+
 - После этого замените в package-json свойства "scripts" и "eslintConfig" на:
 ````json lines
 "scripts": {
-    "start": "ESLINT_NO_DEV_ERRORS=true react-scripts start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
@@ -64,6 +76,8 @@ ESLINT_NO_DEV_ERRORS=true
     }
   },
 ````
+
+Теперь когда вы запускаете приложение у вас будут показываться ошибки от eslint.
 
 ### Для проектов на CRA мы будем использовать ES модули — с синтаксисом import/export
 // App.jsx  
