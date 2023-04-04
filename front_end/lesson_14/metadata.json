@@ -3,7 +3,12 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-
+    "./code/homework_solution_01/index.js",
+    "./code/martini/Alcohol.js",
+    "./code/martini/Martini.js",
+    "./code/martini/runner.js",
+    "./code/oop_introduction/class_intro.js",
+    "./code/oop_introduction/object_intro.js"
   ],
   "video": "",
   "etc": ""

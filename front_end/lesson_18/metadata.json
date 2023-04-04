@@ -3,10 +3,10 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "./code/homework_solution_01/index.html",
-    "./code/tables_intro/index.html"
+    "./code/my-app/src/Counter/Counter.tsx",
+    "./code/my-app/src/Child/Child.tsx",
+    "./code/my-app/src/index.tsx"
   ],
   "video": "",
-  "presentation": "html_core.pdf",
   "etc": ""
 }

@@ -3,7 +3,9 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-
+    "./code/dom-intro/index.js",
+    "./code/dom-intro/index.css",
+    "./code/dom-intro/index.html"
   ],
   "video": "",
   "presentation": "js-dom.pdf",

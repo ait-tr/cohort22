@@ -3,6 +3,11 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
+    "./code/frog_tinder/index.html",
+    "./code/homework_solution_01/index.html",
+    "./code/registration/index.html",
+    "./code/registration/index.css",
+    "./code/registration/otherpage.css"
 
   ],
   "video": "",

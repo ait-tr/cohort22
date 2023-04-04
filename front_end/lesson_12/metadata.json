@@ -3,6 +3,11 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
+    "./code/js-introduction/index.html",
+    "./code/js-introduction/index.js",
+    "./code/task_fe-dom-magic-buttons-main/index.html",
+    "./code/task_fe-dom-magic-buttons-main/index.css",
+    "./code/task_fe-dom-magic-buttons-main/index.js"
 
   ],
   "video": "",

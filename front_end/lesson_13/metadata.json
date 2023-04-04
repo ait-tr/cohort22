@@ -3,7 +3,10 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-
+    "./code/homework_solution_01/index.js",
+    "./code/homework_solution_01/index.html",
+    "./code/arrays_functions_destruct/index.html",
+    "./code/arrays_functions_destruct/index.js"
   ],
   "video": "",
   "presentation": "js-dom.pdf",

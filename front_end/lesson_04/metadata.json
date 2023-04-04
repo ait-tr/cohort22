@@ -3,6 +3,10 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
+    "./code/homework_solution/index.html",
+    "./code/homework_solution/otherpage.html",
+    "./code/css_intro/index.html",
+    "./code/css_intro/style.css"
   ],
   "video": "",
   "presentation": "css.pdf",

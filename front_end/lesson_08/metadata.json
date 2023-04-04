@@ -3,6 +3,13 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
+    "./code/html-css-flexbox/index.html",
+    "./code/html-css-flexbox/style.css",
+    "./code/html-css-position-movie-card-main/index.html",
+    "./code/html-css-position-movie-card-main/style.html",
+    "./code/html-css-position-museum-header-main/index.html",
+    "./code/html-css-position-museum-header-main/otherpage.html",
+    "./code/html-css-position-museum-header-main/style.html"
   ],
   "video": "",
   "presentation": "css.pdf",
