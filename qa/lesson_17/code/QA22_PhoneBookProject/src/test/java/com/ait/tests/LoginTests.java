@@ -46,7 +46,7 @@ public class LoginTests extends TestBase{
         Assert.assertTrue(app.getUser().isAlertPresent());
     }
 
-    @Test(priority = 2)
+    @Test(priority = 3)
     public void loginRegisteredUserWithoutPasswordNegativeTest() {
 
         app.getHeader().clickOnLoginLink();
