@@ -3,6 +3,10 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
+    "./code/box-model/index.html",
+    "./code/box-model/style.css",
+    "./code/homework_solution/html-css-animals-are-drunk/index.html",
+    "./code/homework_solution/html-css-animals-are-drunk/style.css"
   ],
   "video": "",
   "presentation": "css-box-model.pdf",

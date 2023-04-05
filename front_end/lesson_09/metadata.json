@@ -3,6 +3,11 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
+    "./code/html-css-flexbox-header-cinema-main/index.html",
+    "./code/html-css-flexbox-header-cinema-main/style.css",
+    "./code/html-css-flexbox-resp-footer/style.css",
+    "./code/html-css-flexbox-resp-footer/index.html"
+
   ],
   "video": "",
   "presentation": "css-flex-box.pdf",

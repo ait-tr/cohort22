@@ -3,7 +3,8 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-
+    "./code/homework_solution_01/index.html",
+    "./code/tables_intro/index.html"
   ],
   "video": "",
   "presentation": "html_core.pdf",

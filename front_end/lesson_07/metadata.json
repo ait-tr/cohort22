@@ -3,6 +3,12 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
+    "./code/css-box-model-main/index.html",
+    "./code/css-box-model-main/style.css",
+    "./code/html-css-btn-hover-main/index.html",
+    "./code/html-css-btn-hover-main/style.css",
+    "./code/html-css-position/index.html",
+    "./code/html-css-position/style.css"
   ],
   "video": "",
   "presentation": "css-position.pdf",
