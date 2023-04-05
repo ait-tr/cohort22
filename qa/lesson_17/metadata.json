@@ -11,12 +11,12 @@
     "code/QA22_PhoneBookProject/src/main/java/com/ait/phonebook/fw/UserHelper.java",
     "code/QA22_PhoneBookProject/src/main/java/com/ait/phonebook/model/Contact.java",
     "code/QA22_PhoneBookProject/src/main/java/com/ait/phonebook/model/User.java",
-    "code/QA22_PhoneBookProject/src/test/java/com.ait.tests/TestBase.java",
-    "code/QA22_PhoneBookProject/src/test/java/com.ait.tests/HomePageTests.java",
-    "code/QA22_PhoneBookProject/src/test/java/com.ait.tests/CreateAccountTests.java",
-    "code/QA22_PhoneBookProject/src/test/java/com.ait.tests/LoginTests.java",
-    "code/QA22_PhoneBookProject/src/test/java/com.ait.tests/AddContactTests.java",
-    "code/QA22_PhoneBookProject/src/test/java/com.ait.tests/RemoveContactTests.java"
+    "code/QA22_PhoneBookProject/src/test/java/com/ait/tests/TestBase.java",
+    "code/QA22_PhoneBookProject/src/test/java/com/ait/tests/HomePageTests.java",
+    "code/QA22_PhoneBookProject/src/test/java/com/ait/tests/CreateAccountTests.java",
+    "code/QA22_PhoneBookProject/src/test/java/com/ait/tests/LoginTests.java",
+    "code/QA22_PhoneBookProject/src/test/java/com/ait/tests/AddContactTests.java",
+    "code/QA22_PhoneBookProject/src/test/java/com/ait/tests/RemoveContactTests.java"
   ],
   "video": ""
 }
