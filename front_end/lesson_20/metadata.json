@@ -4,7 +4,6 @@
   "homework": "homework.md",
   "code": [
     "./code/Counter/Counter.tsx",
-    "./code/Child/Child.tsx",
     "./code/GenderReveal/GenderReveal.module.css",
     "./code/GenderReveal/GenderReveal.tsx",
     "./code/index.tsx"
