@@ -1,0 +1,14 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "./code/cra/src/Counter/Counter.tsx",
+    "./code/cra/src/Child/Child.tsx",
+    "./code/cra/src/GenderReveal/GenderReveal.module.css",
+    "./code/cra/src/GenderReveal/GenderReveal.tsx",
+    "./code/cra/src/index.tsx"
+  ],
+  "video": "",
+  "etc": ""
+}
