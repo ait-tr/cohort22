@@ -3,11 +3,11 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "./code/cra/src/Counter/Counter.tsx",
-    "./code/cra/src/Child/Child.tsx",
-    "./code/cra/src/GenderReveal/GenderReveal.module.css",
-    "./code/cra/src/GenderReveal/GenderReveal.tsx",
-    "./code/cra/src/index.tsx"
+    "./code/Counter/Counter.tsx",
+    "./code/Child/Child.tsx",
+    "./code/GenderReveal/GenderReveal.module.css",
+    "./code/GenderReveal/GenderReveal.tsx",
+    "./code/index.tsx"
   ],
   "video": "",
   "etc": ""
