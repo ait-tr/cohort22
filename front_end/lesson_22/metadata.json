@@ -1,0 +1,12 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "./code/arraysMethodsMap.js",
+    "./code/cra/src/Cinema/Cinema.tsx",
+    "./code/cra/src/Navbar/Navbar.tsx"
+  ],
+  "video": "",
+  "etc": ""
+}
