@@ -1,5 +1,6 @@
 package com.ait.tests;
 
+import com.ait.phonebook.fw.DataProviderContact;
 import com.ait.phonebook.model.Contact;
 import com.ait.phonebook.model.User;
 import org.testng.Assert;
@@ -37,6 +38,33 @@ public class AddContactTests extends TestBase {
         app.getContact().clickOnSaveButton();
 
         Assert.assertTrue(app.getContact().isContactCreated("Karl"));
+    }
+
+    @Test(enabled = false,dataProvider = "addNewContact",dataProviderClass = DataProviderContact.class)
+    public void addContactPositiveFromDataProviderTest(String name, String sureName, String phone,
+                                                       String email, String address, String desc) {
+        app.getHeader().clickOnAddLink();
+
+        app.getContact().addContact(new Contact()
+                .setName(name)
+                .setSurName(sureName)
+                .setPhone(phone)
+                .setEmail(email)
+                .setAddress(address)
+                .setDesc(desc));
+
+        app.getContact().clickOnSaveButton();
+        app.getContact().removeContact();
+    }
+
+    @Test(enabled = false,dataProvider = "addNewContactFromCSV",dataProviderClass = DataProviderContact.class)
+    public void addContactPositiveFromCSVFileTest(Contact contact) {
+        app.getHeader().clickOnAddLink();
+
+        app.getContact().addContact(contact);
+
+        app.getContact().clickOnSaveButton();
+        app.getContact().removeContact();
     }
 
 }
