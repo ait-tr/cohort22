@@ -1,0 +1,13 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "./code/cra/src/Layout/Layout.tsx",
+    "./code/cra/src/ShoesCard/ShoesCard.tsx",
+    "./code/cra/src/ShoeShop/ShoeShop.tsx"
+
+  ],
+  "video": "",
+  "etc": ""
+}
