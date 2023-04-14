@@ -2,8 +2,8 @@
 ### React Context
 
 Подробнее узнать о контексте вы можете на официальном сайте: 
-- https://hy.reactjs.org/docs/context.html
-- https://hy.reactjs.org/docs/context.html
+[на английском](https://hy.reactjs.org/docs/context.html)
+[на русском](https://hy.reactjs.org/docs/context.html)
 
 
 
