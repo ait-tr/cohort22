@@ -1,8 +1,9 @@
 
 ### React Context
 
-Подробнее узнать о контексте вы можете на официальном сайте: [на английском]("https://hy.reactjs.org/docs/context.html")
-[на русском]("https://hy.reactjs.org/docs/context.html")
+Подробнее узнать о контексте вы можете на официальном сайте: 
+- https://hy.reactjs.org/docs/context.html
+- https://hy.reactjs.org/docs/context.html
 
 
 
@@ -14,7 +15,7 @@ React Router DOM — обёртка для React Router в веб-приложе
 Чтобы установить пакет введите команду:
 ```npm i react-router-dom```
   
-Подробнее узнать о роутер-дом вы можете на официальном [сайте]("https://reactrouter.com/en/main")
+Подробнее узнать о роутер-дом вы можете на официальном [сайте](https://reactrouter.com/en/main)
 
 Чтобы отключить сообщение об ошибке импорта из 'react-router-dom' добавьте правило в настройки eslint в package.json:  
 
