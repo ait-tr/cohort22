@@ -19,6 +19,8 @@
     "code/QA22_PhoneBookProject/src/test/java/com/ait/tests/RemoveContactTests.java",
     "code/QA22_PhoneBookProject/src/test/resources/contact.csv",
     "code/QA22_PhoneBookProject/src/test/resources/logback.xml",
+    "code/QA22_PhoneBookProject/src/test/resources/quick.xml",
+    "code/QA22_PhoneBookProject/src/test/resources/testng.xml",
     "code/QA22_PhoneBookProject/build.gradle"
   ],
   "video": ""
