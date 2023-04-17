@@ -1,0 +1,52 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.seleniumhq.selenium:selenium-java:4.8.1'
+    implementation 'org.testng:testng:7.6.0'
+    implementation 'ch.qos.logback:logback-classic:1.4.6'
+}
+
+test {
+    useTestNG()
+}
+
+task qa(type:Test) {
+    useTestNG()
+
+    if (project.hasProperty('browser')) {
+        systemProperty 'browser',"${browser}"
+    }
+}
+
+task qa1(type:Test) {
+    useTestNG() {
+        def suite1 = project.hasProperty("suite1")
+        def suite2 = project.hasProperty("suite2")
+
+        if (suite1) {
+            suites 'src/test/resources/quick.xml'
+        } else if (suite2) {
+            suites 'src/test/resources/testng.xml'
+        }
+    }
+
+    if (project.hasProperty('browser')) {
+        systemProperty 'browser',"${browser}"
+    }
+}
+
+// echo %JAVA_HOME%
+
+// gradle clean qa1 -Psuite1
+// gradle -Pbrowser=firefox clean qa1 -Psuite1
+// gradle -Pbrowser=edge clean qa1 -Psuite1
+//gradle -Pbrowser=safari clean qa1 -Psuite1
