@@ -1,0 +1,15 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "./code/simple-redux/src/features/counter/Counter.tsx",
+    "./code/simple-redux/src/features/counter/counterReducer.tsx",,
+    "./code/cra/src/ShoeShop/ShoeShop.tsx",
+    "./code/simple-redux/src/App/App.tsx",
+    "./code/simple-redux/src/store.ts",
+    "./code/simple-redux/src/index.tsx"
+  ],
+  "video": "",
+  "etc": ""
+}

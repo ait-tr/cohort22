@@ -1,4 +1,10 @@
 
+### React Redux
+[Справочник хуков](https://ru.reactjs.org/docs/hooks-reference.html)  
+[useDispatch](https://ru.react-redux.js.org/api/hooks/#usedispatch)  
+[useSelector](https://ru.react-redux.js.org/api/hooks/#useselector)  
+
+
 ### React Context
 
 Подробнее узнать о контексте вы можете на официальном сайте: 

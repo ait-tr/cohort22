@@ -1,3 +1,13 @@
+
+### React Redux
+
+Подробнее узнать о контексте вы можете на официальном сайте: 
+[на английском](https://hy.reactjs.org/docs/context.html)
+[на русском](https://hy.reactjs.org/docs/context.html)
+
+
+
+
 ### React Router
 
 React Router — библиотека для работы с маршрутами в React. 
