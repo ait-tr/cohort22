@@ -1,13 +1,7 @@
 
 ### React Redux
-[Справочник хуков](https://ru.reactjs.org/docs/hooks-reference.html)  
-[useDispatch](https://ru.react-redux.js.org/api/hooks/#usedispatch)  
-[useSelector](https://ru.react-redux.js.org/api/hooks/#useselector)  
 
-
-### React Context
-
-Подробнее узнать о контексте вы можете на официальном сайте: 
+Подробнее узнать о контексте вы можете на официальном сайте:
 [на английском](https://hy.reactjs.org/docs/context.html)
 [на русском](https://hy.reactjs.org/docs/context.html)
 
@@ -16,14 +10,14 @@
 
 ### React Router
 
-React Router — библиотека для работы с маршрутами в React. 
+React Router — библиотека для работы с маршрутами в React.
 React Router DOM — обёртка для React Router в веб-приложениях
 Чтобы установить пакет введите команду:
 ```npm i react-router-dom```
-  
+
 Подробнее узнать о роутер-дом вы можете на официальном [сайте](https://reactrouter.com/en/main)
 
-Чтобы отключить сообщение об ошибке импорта из 'react-router-dom' добавьте правило в настройки eslint в package.json:  
+Чтобы отключить сообщение об ошибке импорта из 'react-router-dom' добавьте правило в настройки eslint в package.json:
 
 ```"import/no-extraneous-dependencies": "off"```
 
@@ -37,11 +31,11 @@ React Router DOM — обёртка для React Router в веб-приложе
 
 ```json lines
 "rules": {
-      "linebreak-style": [
-        "error",
-        "windows"
-      ],
-    },
+"linebreak-style": [
+"error",
+"windows"
+],
+},
 ```
 
 ```json lines
@@ -81,62 +75,62 @@ _(Имейте ввиду что в файлах App.tsx, index.tsx и проч�
   После выполнения команд, у вас package-json у вас появится следующее свойство:
 ```json lines
   "devDependencies": {
-    "eslint-config-airbnb": "^19.0.4",
-    "eslint-config-airbnb-typescript": "^17.0.0"
-  }
+"eslint-config-airbnb": "^19.0.4",
+"eslint-config-airbnb-typescript": "^17.0.0"
+}
 ```
 
 
 - После этого замените в package-json свойства "scripts" и "eslintConfig" на:
 ````json lines
 "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "typecheck": "tsc",
-    "lint": "eslint ."
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest",
-      "airbnb",
-      "airbnb-typescript"
-    ],
-    "rules": {
-      "react/jsx-indent": 0,
-      "implicit-arrow-linebreak": 0,
-      "@typescript-eslint/indent": 0,
-      "@typescript-eslint/comma-dangle": 0,
-      "function-paren-newline": 0,
-      "no-param-reassign": 0,
-      "no-nested-ternary": 0,
-      "no-confusing-arrow": 0,
-      "operator-linebreak": 0,
-      "jsx-a11y/anchor-is-valid": 0,
-      "jsx-a11y/label-has-associated-control": 0,
-      "react/jsx-one-expression-per-line": 0,
-      "jsx-a11y/click-events-have-key-events": 0,
-      "default-case": 0,
-      "@typescript-eslint/default-param-last": 0,
-      "@typescript-eslint/switch-exhaustiveness-check": 2,
-      "@typescript-eslint/explicit-function-return-type": [
-        2,
-        {
-          "allowExpressions": true,
-          "allowTypedFunctionExpressions": true,
-          "allowHigherOrderFunctions": true,
-          "allowDirectConstAssertionInArrowFunctions": true
-        }
-      ]
-    },
-    "parserOptions": {
-      "project": [
-        "tsconfig.json"
-      ]
-    }
-  },
+"start": "react-scripts start",
+"build": "react-scripts build",
+"test": "react-scripts test",
+"eject": "react-scripts eject",
+"typecheck": "tsc",
+"lint": "eslint ."
+},
+"eslintConfig": {
+"extends": [
+"react-app",
+"react-app/jest",
+"airbnb",
+"airbnb-typescript"
+],
+"rules": {
+"react/jsx-indent": 0,
+"implicit-arrow-linebreak": 0,
+"@typescript-eslint/indent": 0,
+"@typescript-eslint/comma-dangle": 0,
+"function-paren-newline": 0,
+"no-param-reassign": 0,
+"no-nested-ternary": 0,
+"no-confusing-arrow": 0,
+"operator-linebreak": 0,
+"jsx-a11y/anchor-is-valid": 0,
+"jsx-a11y/label-has-associated-control": 0,
+"react/jsx-one-expression-per-line": 0,
+"jsx-a11y/click-events-have-key-events": 0,
+"default-case": 0,
+"@typescript-eslint/default-param-last": 0,
+"@typescript-eslint/switch-exhaustiveness-check": 2,
+"@typescript-eslint/explicit-function-return-type": [
+2,
+{
+"allowExpressions": true,
+"allowTypedFunctionExpressions": true,
+"allowHigherOrderFunctions": true,
+"allowDirectConstAssertionInArrowFunctions": true
+}
+]
+},
+"parserOptions": {
+"project": [
+"tsconfig.json"
+]
+}
+},
 ````
 
 Теперь когда вы запускаете приложение у вас будут показываться ошибки от eslint.
