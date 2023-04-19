@@ -1,0 +1,18 @@
+{
+  "plan": "plan.md",
+  "homework": "homework.md",
+  "code": [
+    "code/API_Phonebook/src/main/java/dto/AllContactDto.java",
+    "code/API_Phonebook/src/main/java/dto/AuthRequestDto.java",
+    "code/API_Phonebook/src/main/java/dto/AuthResponseDto.java",
+    "code/API_Phonebook/src/main/java/dto/ContactDto.java",
+    "code/API_Phonebook/src/main/java/dto/ContactResponseDto.java",
+    "code/API_Phonebook/src/main/java/dto/ErrorDto.java",
+    "code/API_Phonebook/src/main/java/dto/AddNewContactTests.java",
+    "code/API_Phonebook/src/main/java/dto/DeleteContactByIdTests.java",
+    "code/API_Phonebook/src/main/java/dto/GetAllContactTests.java",
+    "code/API_Phonebook/src/main/java/dto/LoginTests.java",
+    "code/API_Phonebook/build.gradle"
+  ],
+  "video": ""
+}
