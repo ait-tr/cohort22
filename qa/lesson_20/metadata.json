@@ -8,10 +8,10 @@
     "code/API_Phonebook/src/main/java/dto/ContactDto.java",
     "code/API_Phonebook/src/main/java/dto/ContactResponseDto.java",
     "code/API_Phonebook/src/main/java/dto/ErrorDto.java",
-    "code/API_Phonebook/src/main/java/dto/AddNewContactTests.java",
-    "code/API_Phonebook/src/main/java/dto/DeleteContactByIdTests.java",
-    "code/API_Phonebook/src/main/java/dto/GetAllContactTests.java",
-    "code/API_Phonebook/src/main/java/dto/LoginTests.java",
+    "code/API_Phonebook/src/test/java/okhttp/AddNewContactTests.java",
+    "code/API_Phonebook/src/test/java/okhttp/DeleteContactByIdTests.java",
+    "code/API_Phonebook/src/test/java/okhttp/GetAllContactTests.java",
+    "code/API_Phonebook/src/test/java/okhttp/LoginTests.java",
     "code/API_Phonebook/build.gradle"
   ],
   "video": ""
