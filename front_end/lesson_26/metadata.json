@@ -1,0 +1,15 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "./code/cra/src/index.tsx",
+    "./code/bootstrap/index.html",
+    "./code/cra/src/BootstrapPage/BootstrapPage.tsx",
+    "./code/cra/src/App/App.tsx",
+    "./code/cra/src/Navbar/Navbar.tsx"
+
+  ],
+  "video": "",
+  "etc": ""
+}
