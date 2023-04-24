@@ -11,8 +11,8 @@
     "code/QA22_POM_MavenProject/src/main/java/pages/bookStore/ProfilePage.java",
     "code/QA22_POM_MavenProject/src/main/java/pages/alertFrameWindows/AlertsPage.java",
     "code/QA22_POM_MavenProject/src/test/java/tests/TestBase.java",
-    "code/QA22_POM_MavenProject/src/test/java/tests/bookStore/LoginPageTests.java",
-    "code/QA22_POM_MavenProject/src/test/java/tests/bookStore/SearchBookTests.java",
+    "code/QA22_POM_MavenProject/src/test/java/tests/bookStorePage/LoginPageTests.java",
+    "code/QA22_POM_MavenProject/src/test/java/tests/bookStorePage/SearchBookTests.java",
     "code/QA22_POM_MavenProject/src/test/java/tests/alertFrameWindows/AlertsTests.java",
     "code/QA22_POM_MavenProject/pom.xml"
   ],
