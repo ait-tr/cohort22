@@ -31,7 +31,7 @@ HTTP - это протокол по которому общается почти
 
 Это ключевой протокол и знание как он устроен необходимо для успешной работы.
 
-![backend architecture](./images/backend_arch.png)
+![backend architecture](https://raw.githubusercontent.com/ait-tr/cohort22/main/back_end/lesson_01/images/backend_arch.png)
 
 ### Demo
 
@@ -54,7 +54,7 @@ curl -v --http1.1 -X 'GET' 'https://catfact.ninja/fact' -H 'accept: application/
 HTTP работает по модели запрос-ответ. В общении участвуют клиент и сервер.
 Клиент, например веб-браузер, иницирует запрос а ему отвечает сервер.
 
-![HTTP request-response example](./images/http_req_resp.png)
+![HTTP request-response example](https://raw.githubusercontent.com/ait-tr/cohort22/main/back_end/lesson_01/images/backend_arch.png)
 
 ### Request
 
