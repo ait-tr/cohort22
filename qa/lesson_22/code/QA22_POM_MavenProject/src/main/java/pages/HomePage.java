@@ -6,7 +6,6 @@ import org.openqa.selenium.support.FindBy;
 import pages.bookStore.BookStorePage;
 
 public class HomePage extends BasePage{
-
     public HomePage(WebDriver driver) {
         super(driver);
     }
@@ -24,6 +23,22 @@ public class HomePage extends BasePage{
 
     public SidePanel getAlertFrameWindows() {
         clickWithJSExecutor(alertFrameWindows,0,400);
+        return new SidePanel(driver);
+    }
+
+    @FindBy(xpath = "//h5[.='Widgets']")
+    WebElement widgets;
+
+    public SidePanel getWidgets() {
+        clickWithJSExecutor(widgets,0,400);
+        return new SidePanel(driver);
+    }
+
+    @FindBy(xpath = "//h5[.='Interactions']")
+    WebElement interactions;
+
+    public SidePanel getInteractions() {
+        clickWithJSExecutor(interactions,0,400);
         return new SidePanel(driver);
     }
 }

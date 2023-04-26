@@ -1,0 +1,26 @@
+{
+  "plan": "plan.md",
+  "homework": "homework.md",
+  "code": [
+    "code/QA22_POM_MavenProject/src/main/java/data/UserData.java",
+    "code/QA22_POM_MavenProject/src/main/java/pages/BasePage.java",
+    "code/QA22_POM_MavenProject/src/main/java/pages/HomePage.java",
+    "code/QA22_POM_MavenProject/src/main/java/pages/SidePanel.java",
+    "code/QA22_POM_MavenProject/src/main/java/pages/bookStore/BookStorePage.java",
+    "code/QA22_POM_MavenProject/src/main/java/pages/bookStore/LoginPage.java.java",
+    "code/QA22_POM_MavenProject/src/main/java/pages/bookStore/ProfilePage.java",
+    "code/QA22_POM_MavenProject/src/main/java/pages/alertFrameWindows/AlertsPage.java",
+    "code/QA22_POM_MavenProject/src/main/java/pages/alertFrameWindows/WindowsPage.java",
+    "code/QA22_POM_MavenProject/src/main/java/pages/widgets/SelectMenuPage.java",
+    "code/QA22_POM_MavenProject/src/main/java/pages/interactions/DroppablePage.java",
+    "code/QA22_POM_MavenProject/src/test/java/tests/TestBase.java",
+    "code/QA22_POM_MavenProject/src/test/java/tests/bookStorePage/LoginPageTests.java",
+    "code/QA22_POM_MavenProject/src/test/java/tests/bookStorePage/SearchBookTests.java",
+    "code/QA22_POM_MavenProject/src/test/java/tests/alertFrameWindows/AlertsTests.java",
+    "code/QA22_POM_MavenProject/src/test/java/tests/alertFrameWindows/WindowsTests.java",
+    "code/QA22_POM_MavenProject/src/test/java/tests/widgets/SelectMenuTests.java",
+    "code/QA22_POM_MavenProject/src/test/java/tests/interactions/DragDropTests.java",
+    "code/QA22_POM_MavenProject/pom.xml"
+  ],
+  "video": ""
+}

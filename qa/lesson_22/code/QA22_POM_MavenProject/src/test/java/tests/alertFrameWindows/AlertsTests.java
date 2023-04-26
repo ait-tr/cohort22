@@ -19,4 +19,15 @@ public class AlertsTests extends TestBase {
     public void alertWaitTest() {
         new AlertsPage(driver).clickByAlertWithTimer();
     }
+
+    @Test
+    public void alertWithSelectTest() {
+
+        new AlertsPage(driver).selectConfirm("Cancel").assertResult("Cancel");
+    }
+
+    @Test
+    public void sendTextToAlert() {
+        new AlertsPage(driver).sendMessageToAlert("Hello World!").assertMessage("Hello World!");
+    }
 }
