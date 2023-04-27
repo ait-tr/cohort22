@@ -1,0 +1,11 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/pom.xml",
+    "src/main/java/com/example/servingwebcontent/GreetingController.java",
+    "src/main/java/com/example/servingwebcontent/ServingWebContentApplication.java",
+    "src/main/resources/templates/greeting.html"
+  ]
+}
