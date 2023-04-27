@@ -4,8 +4,8 @@
   "homework": "homework.md",
   "code": [
     "code/pom.xml",
-    "src/main/java/com/example/servingwebcontent/GreetingController.java",
-    "src/main/java/com/example/servingwebcontent/ServingWebContentApplication.java",
-    "src/main/resources/templates/greeting.html"
+    "code/src/main/java/com/example/servingwebcontent/GreetingController.java",
+    "code/src/main/java/com/example/servingwebcontent/ServingWebContentApplication.java",
+    "code/src/main/resources/templates/greeting.html"
   ]
 }

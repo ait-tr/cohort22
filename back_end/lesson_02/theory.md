@@ -111,9 +111,11 @@ java -jar target/serving-web-content-0.0.1-SNAPSHOT.jar
 
 ### HTTP URL Parameters (Query String)
 
-![](https://static.semrush.com/blog/uploads/media/5a/20/5a20dd9a3859e973f5a378a1d6f96a9f/Graphic%201.webp)
+<img src="https://static.semrush.com/blog/uploads/media/5a/20/5a20dd9a3859e973f5a378a1d6f96a9f/Graphic%201.webp" width=50% height=50%>
 
-![](https://static.semrush.com/blog/uploads/media/00/6e/006eebc38b54220916caecfc80fed202/Guide-to-URL-Parameters-2.webp)
+<img src="https://static.semrush.com/blog/uploads/media/00/6e/006eebc38b54220916caecfc80fed202/Guide-to-URL-Parameters-2.webp" width=50% height=50%>
+
+
 
 Источник: https://www.semrush.com/blog/url-parameters/ 
 
