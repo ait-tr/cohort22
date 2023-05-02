@@ -103,7 +103,12 @@ public class MyController {
 @GetMapping(value = "/image2", produces = MediaType.IMAGE_PNG_VALUE)
 ```
 
-https://www.logicbig.com/tutorials/spring-framework/spring-web-mvc/spring-request-mapping.html
+
+[@RequestMapping](https://www.logicbig.com/tutorials/spring-framework/spring-web-mvc/spring-request-mapping.html)
+
+# Thymeleaf
+
+[Introduction to Using Thymeleaf in Spring](https://www.baeldung.com/thymeleaf-in-spring-mvc)
 
 ## Добавляем библиотеку в gradle
 
@@ -113,4 +118,3 @@ https://central.sonatype.com/artifact/com.google.zxing/javase/3.5.1
 implementation 'com.google.zxing:javase:3.5.1'
 ```
 
-https://start.spring.io/#!type=gradle-project&language=java&platformVersion=3.0.6&packaging=jar&jvmVersion=17&groupId=com.example&artifactId=serving-web-content&name=serving-web-content&description=Demo%20project%20for%20Spring%20Boot&packageName=com.example.serving-web-content&dependencies=web,thymeleaf,devtools
