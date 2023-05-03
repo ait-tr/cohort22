@@ -41,4 +41,20 @@ public class HomePage extends BasePage{
         clickWithJSExecutor(interactions,0,400);
         return new SidePanel(driver);
     }
+
+    @FindBy(xpath = "//*[text()='Book Store Application']")
+    WebElement booStoreApp;
+
+    public BookStorePage getBookStore() {
+        clickWithJSExecutor(booStoreApp,0,800);
+        return new BookStorePage(driver);
+    }
+
+    @FindBy(xpath = "//h5[.='Elements']")
+    WebElement elements;
+
+    public SidePanel getElements() {
+        clickWithJSExecutor(elements,0,400);
+        return new SidePanel(driver);
+    }
 }

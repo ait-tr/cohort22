@@ -27,4 +27,19 @@ public class BookStorePage extends BasePage {
         Assert.assertTrue(nameOfBook.getText().contains(text));
         return this;
     }
+
+    public BookStorePage clickByFirstBook() {
+        click(nameOfBook);
+        return this;
+    }
+
+    @FindBy(css = ".text-right.fullButton")
+    WebElement addToCollectionButton;
+
+    public BookStorePage addToYourCollection() {
+        clickWithJSExecutor(addToCollectionButton, 0, 400);
+        pause(2000);
+        driver.switchTo().alert().accept();
+        return this;
+    }
 }

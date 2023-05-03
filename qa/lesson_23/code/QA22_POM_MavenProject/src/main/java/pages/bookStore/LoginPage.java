@@ -33,4 +33,12 @@ public class LoginPage extends BasePage {
         click(loginButton);
         return this;
     }
+
+    @FindBy(id = "login")
+    WebElement loginBtn;
+
+    public LoginPage getLogin() {
+        click(loginBtn);
+        return new LoginPage(driver);
+    }
 }
