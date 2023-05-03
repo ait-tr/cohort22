@@ -21,7 +21,7 @@
     "code/QA22_POM_MavenProject/src/test/java/tests/JSExecutorTest.java",
     "code/QA22_POM_MavenProject/src/test/java/tests/bookStorePage/LoginPageTests.java",
     "code/QA22_POM_MavenProject/src/test/java/tests/bookStorePage/SearchBookTests.java",
-    "code/QA22_POM_MavenProject/src/test/java/tests/bookStorePage/AddBookTests.java",
+    "code/QA22_POM_MavenProject/src/test/java/tests/bookStorePage/AddBookTest.java",
     "code/QA22_POM_MavenProject/src/test/java/tests/elements/LinksAndImagesTests.java",
     "code/QA22_POM_MavenProject/src/test/java/tests/alertFrameWindows/AlertsTests.java",
     "code/QA22_POM_MavenProject/src/test/java/tests/alertFrameWindows/WindowsTests.java",
