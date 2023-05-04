@@ -78,6 +78,14 @@ Methods:
 - @RestController
 
 
+## CURL
+
+При запуске может быть ошибка
+
+>curl: (3) URL using bad/illegal format or missing URL
+
+Убедитесь, что вы вызываете curl из git bash.
+
 ```sh
 # List - GET
 curl -X GET  http://localhost:8080/events
