@@ -1,0 +1,18 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/FirstCucumberProject/build.gradle",
+    "code/FirstCucumberProject/src/test/resources/features/navigate.feature",
+    "code/FirstCucumberProject/src/test/resources/features/login.feature",
+    "code/FirstCucumberProject/src/test/java/com/ait/TestRunner.java",
+    "code/FirstCucumberProject/src/main/java/com/ait/pages/BasePage.java",
+    "code/FirstCucumberProject/src/main/java/com/ait/pages/HomePage.java",
+    "code/FirstCucumberProject/src/main/java/com/ait/pages/LoginPage.java",
+    "code/FirstCucumberProject/src/main/java/com/ait/pages/ProfilePage.java",
+    "code/FirstCucumberProject/src/test/java/com/ait/stepDefinitions/HomePageSteps.java",
+    "code/FirstCucumberProject/src/test/java/com/ait/stepDefinitions/LoginPageSteps.java"
+  ],
+  "video": ""
+}
