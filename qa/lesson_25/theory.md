@@ -48,6 +48,8 @@
 - Spread
 - Swipe
 
+#### Windows
+
 ANDROID_HOME
 
 %ANDROID_HOME%\emulator
@@ -58,4 +60,12 @@ ANDROID_HOME
 
 %ANDROID_HOME%\tools\bin
 
-Adb commands
+#### Mac
+
+export ANDROID_HOME=/Users/<User>/Library/Android/sdk
+export PATH=:$ANDROID_HOME/tools:$PATH
+export PATH=:$ANDROID_HOME/emulator:$PATH
+export PATH=:$ANDROID_HOME/platform-tools:$PATH
+export PATH=:$ANDROID_HOME/tools/bin:$PATH
+
+[Adb commands](https://docs.google.com/document/d/1z86TgN74NcHUPlRQLm8bXa0OrY8ORtULVfBiSNZks1E/edit?usp=share_link)
