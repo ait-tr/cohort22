@@ -58,7 +58,7 @@ private String name;
 
 Хорошая статья с примером документации
 
-(https://www.dariawan.com/tutorials/spring/documenting-spring-boot-rest-api-springdoc-openapi-3/)
+https://www.dariawan.com/tutorials/spring/documenting-spring-boot-rest-api-springdoc-openapi-3/
 
 [How To Add OpenAPI And Swagger To Spring Boot Application](https://www.youtube.com/watch?v=A_RWUcTqHBI)
 
@@ -77,6 +77,7 @@ plugins {
 https://auth0.com/blog/a-complete-guide-to-lombok/
 
 Полезные аннотации
+
   - @Getter, @Setter
   - @NoArgsConstructor, @RequiredArgsConstructor, @AllArgsConstructor
 
