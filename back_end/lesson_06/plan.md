@@ -2,5 +2,4 @@
 
 - Swagger OpenAPI
 - Lombok
-- HTTP-code return
 
