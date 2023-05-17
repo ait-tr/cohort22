@@ -1,0 +1,16 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "code": [
+    "code/QA22_FirstMobileProject/build.gradle",
+    "code/QA22_FirstMobileProject/src/main/java/com/ait/fw/AppManager.java",
+    "code/QA22_FirstMobileProject/src/main/java/com/ait/fw/BaseHelper.java",
+    "code/QA22_FirstMobileProject/src/main/java/com/ait/fw/MainScreenHelper.java",
+    "code/QA22_FirstMobileProject/src/main/java/com/ait/fw/ReminderHelper.java",
+    "code/QA22_FirstMobileProject/src/main/java/com/ait/model/Reminder.java",
+    "code/QA22_FirstMobileProject/src/test/java/com/ait/tests/TestBase.java",
+    "code/QA22_FirstMobileProject/src/test/java/com/ait/tests/MainScreenTests.java",
+    "code/QA22_FirstMobileProject/src/test/java/com/ait/tests/AddReminderTests.java"
+  ],
+  "video": ""
+}

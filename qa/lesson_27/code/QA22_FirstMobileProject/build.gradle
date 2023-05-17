@@ -1,0 +1,25 @@
+plugins {
+    id 'java'
+    id "io.freefair.lombok" version "8.0.1"
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'io.appium:java-client:7.6.0'
+    implementation 'org.testng:testng:7.7.1'
+
+//    compileOnly 'org.projectlombok:lombok:1.18.16'
+//    annotationProcessor 'org.projectlombok:lombok:1.18.16'
+//    testCompileOnly 'org.projectlombok:lombok:1.18.16'
+//    testAnnotationProcessor 'org.projectlombok:lombok:1.18.16'
+}
+
+test {
+    useTestNG()
+}
