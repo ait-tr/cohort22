@@ -1,5 +1,6 @@
 package com.example.servingwebcontent;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -8,6 +9,16 @@ import java.util.stream.Collectors;
 
 @Service
 public class EventService {
+
+
+    private EventRepository eventRepository;
+
+    @Autowired
+    public void setEventRepository(EventRepository eventRepository)
+    {
+        this.eventRepository = eventRepository;
+    }
+
     static final ArrayList<EventDTO> EVENT_DTOS = new ArrayList<EventDTO>(){{
         add(new EventDTO("Opera", "London"));
         add(new EventDTO("Violin concert", "Prague"));
@@ -17,10 +28,19 @@ public class EventService {
 
     public List<EventDTO> getEvents(String cityFilter)
     {
-        List<EventDTO> result = EVENT_DTOS;
+        // eventRepository.findAll()
+        //eventRepository.deleteAll();
 
-        if (!cityFilter.equals("all")) {
-            result = EVENT_DTOS.stream().filter(e -> e.getCity().equals(cityFilter)).collect(Collectors.toList());
+        Iterable<Event> allEvents = eventRepository.findAll(); // Get all events from database
+
+        ///
+        List<EventDTO> result = new ArrayList<EventDTO>();
+        for (Event event : allEvents)
+        {
+            // Mapping Entity to DTO
+            // Hide ID
+            EventDTO eventDTO = new EventDTO(event.getName(), event.getCity());
+            result.add(eventDTO);
         }
         return result;
     }
@@ -40,7 +60,16 @@ public class EventService {
 
     public EventDTO createEvent(EventDTO eventDTO)
     {
-        // TODO save to database
+        // Pass data from eventDTO(for API and controller) to Event(Entity) for database
+        String name = eventDTO.getName();
+        String city = eventDTO.getCity();
+        Event event = new Event();
+        event.setName(name);
+        event.setCity(city);
+
+        // Save to database
+        eventRepository.save(event);
+
         return eventDTO;
     }
 

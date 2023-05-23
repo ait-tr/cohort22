@@ -12,11 +12,9 @@ import java.util.List;
 @RequestMapping("events")
 @Tag(name = "Events", description = "Working with events")
 public class EventsController {
-
-
     private EventService service;
 
-    @Autowired // Io
+    @Autowired // IoC
     public void setService(EventService service) {
         this.service = service;
     }
@@ -34,8 +32,8 @@ public class EventsController {
         return service.getEvent(id);
     }
 
+    // POST /events
     @PostMapping(value = "")
-    @ResponseStatus(code = HttpStatus.CREATED, reason = "Created")
     public EventDTO createEvent(@RequestBody EventDTO eventDTO)
     {
         return service.createEvent(eventDTO);
