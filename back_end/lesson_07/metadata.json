@@ -4,13 +4,13 @@
   "homework": "homework.md",
   "code": [
     "code/src/main/java/com/example/servingwebcontent/ServingWebContentApplication.java",
-    "code/main/java/com/example/servingwebcontent/Artist.java",
-	  "code/main/java/com/example/servingwebcontent/ArtistController.java",
-	  "code/main/java/com/example/servingwebcontent/Event.java",
-	  "code/main/java/com/example/servingwebcontent/EventDTO.java",
-	  "code/main/java/com/example/servingwebcontent/EventService.java",
-	  "code/main/java/com/example/servingwebcontent/EventsController.java",
-	  "code/main/java/com/example/servingwebcontent/GreetingController.java",
-	  "code/main/java/com/example/servingwebcontent/ServingWebContentApplication.java"
+    "code/src/main/java/com/example/servingwebcontent/Artist.java",
+	  "code/src/main/java/com/example/servingwebcontent/ArtistController.java",
+	  "code/src/main/java/com/example/servingwebcontent/Event.java",
+	  "code/src/main/java/com/example/servingwebcontent/EventDTO.java",
+	  "code/src/java/com/example/servingwebcontent/EventService.java",
+	  "code/src/java/com/example/servingwebcontent/EventsController.java",
+	  "code/src/java/com/example/servingwebcontent/GreetingController.java",
+	  "code/src/java/com/example/servingwebcontent/ServingWebContentApplication.java"
   ]
 }
