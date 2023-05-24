@@ -1,0 +1,20 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/src/main/java/com/example/servingwebcontent/Artist.java",
+	  "code/src/main/java/com/example/servingwebcontent/ArtistController.java",
+	  "code/src/main/java/com/example/servingwebcontent/ArtistDTO.java",
+	  "code/src/main/java/com/example/servingwebcontent/ArtistRepository.java",
+	  "code/src/main/java/com/example/servingwebcontent/ArtistService.java",
+	  "code/src/main/java/com/example/servingwebcontent/Event.java",
+	  "code/src/main/java/com/example/servingwebcontent/EventDTO.java",
+	  "code/src/main/java/com/example/servingwebcontent/EventRepository.java",
+	  "code/src/main/java/com/example/servingwebcontent/EventService.java",
+	  "code/src/main/java/com/example/servingwebcontent/EventsController.java",
+	  "code/src/main/java/com/example/servingwebcontent/GreetingController.java",
+	  "code/src/main/java/com/example/servingwebcontent/ServingWebContentApplication.java",
+	  "code/src/main/resources/application.properties"
+  ]
+}
