@@ -19,7 +19,7 @@ public class ArtistController {
     @GetMapping(value = "/{id}")
     public ArtistDTO getArtist(@PathVariable int id)
     {
-        return artistService.getAtrist(id);
+        return artistService.getArtist(id);
     }
 
     // GET
@@ -36,7 +36,7 @@ public class ArtistController {
     @DeleteMapping(value = "/{id}")
     public void deleteArtist(@PathVariable int id)
     {
-        // TODO: Remove from database
+        artistService.deleteArtist(id);
     }
 
     // URL: /artists
@@ -67,6 +67,6 @@ public class ArtistController {
     @PutMapping(value = "/{id}")
     public void updateArtist(@PathVariable int id, @RequestBody ArtistDTO newArtistDTO)
     {
-        // TODO: update atrist in database
+        artistService.updateArtist(id, newArtistDTO);
     }
 }

@@ -105,7 +105,33 @@ List<EventDTO> result = modelMapper.map(events, new TypeToken<List<EventDTO>>(){
 Рассмотрели
 - Работу на DAO уровне с помощью 
 
+## Подключение к БД MySQL
 
+https://spring.io/guides/gs/accessing-data-mysql/
+
+application.properties
+
+```
+# Log SQL
+spring.jpa.show-sql=true
+# Auto creates tables
+spring.jpa.hibernate.ddl-auto=update
+
+# localhost - адрес компьютера с БД
+# 3306 - post 
+# tickets <- название базы данных
+
+# Полный адрес для обращения к базе
+spring.datasource.url=jdbc:mysql://localhost:3306/tickets
+
+# Пользователь. Должен быть заведен с MySQL
+spring.datasource.username=application
+spring.datasource.password=Secret-123
+
+# Говорим, что используем MySQL
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+
+```
 
 ## Bonus
 

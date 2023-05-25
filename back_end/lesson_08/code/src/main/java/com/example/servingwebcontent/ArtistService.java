@@ -5,6 +5,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 // TODO:
 // 1. Rename Artist to ArtistDTO
@@ -22,11 +23,6 @@ public class ArtistService {
     {
         this.artistRepository = artistRepository;
     }
-
-    static final ArrayList<ArtistDTO> ARTIST_DTOS = new ArrayList<ArtistDTO>(){{
-        add(new ArtistDTO("Metallica", "Heavy metal"));
-        add(new ArtistDTO("Chvrches", "Synth-Pop"));
-    }};
 
     public List<ArtistDTO> artistList()
     {
@@ -50,10 +46,24 @@ public class ArtistService {
 
     // HOMEWORK getById, update, delete
 
-    // HOMEWORK
-    public ArtistDTO getAtrist(int id)
+    // Request: Swagger(GET) -> Controller -> Service -> Repository -> DB(get out Entity)
+    // Response: Entity -> DTO -> Swagger
+    public ArtistDTO getArtist(int id)
     {
-        return ARTIST_DTOS.get(id);
+        // Get from database
+
+        // Equal for
+        // Optional<Artist> artistOpt = artistRepository.findById(id);
+        // Artist artist = artistOpt.get();
+
+        Artist artist = artistRepository.findById(id).get(); // TODO: handle not found
+
+        // Copy data from Entity(db) to ArtistDTO(presentation layer)
+        ArtistDTO result = new ArtistDTO();
+        result.setName(artist.getName());
+        result.setGenre(artist.getGenre());
+
+        return result;
     }
 
     public void createArtist(ArtistDTO artistDTO)
@@ -62,6 +72,25 @@ public class ArtistService {
         Artist artist = new Artist(artistDTO.getName(), artistDTO.getGenre());
 
         // Save to database
+        artistRepository.save(artist);
+    }
+
+    public void deleteArtist(int id)
+    {
+        // Remove from DB
+        artistRepository.deleteById(id);
+    }
+
+    // Swagger(request UPDATE) -> Controller -> Service -> Repository -> Database
+    public void updateArtist(int id, ArtistDTO artistDTO)
+    {
+        // Get from database
+        Artist artist = artistRepository.findById(id).get(); // TODO: handle not found
+        // Update values
+        artist.setName(artistDTO.getName());
+        artist.setGenre(artistDTO.getGenre());
+
+        // Save to the database
         artistRepository.save(artist);
     }
 }
