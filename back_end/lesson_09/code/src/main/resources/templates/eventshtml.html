@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Events</title>
+</head>
+<body>
+
+<h1>Events in <span th:text="${city}">City</span></h1>
+
+<table>
+<tbody th:each="eventDTO: ${events}">
+<tr>
+    <td th:text="${eventDTO.name}" />
+</tr>
+</tbody>
+</table>
+
+</body>
+</html>
