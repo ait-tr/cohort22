@@ -11,7 +11,7 @@ logging.level.org.hibernate.SQL=debug
 logging.level.org.hibernate.orm.jdbc.bind=trace
 ```
 
-2. Выделить жары в отдельную сущность
+2. Выделить жанры в отдельную сущность
     - Добавить Entity + Repository
     - Проверить, что создалась таблица. Найти SQL создания таблицы в логе 
 
