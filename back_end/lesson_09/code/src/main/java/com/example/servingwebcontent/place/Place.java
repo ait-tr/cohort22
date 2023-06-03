@@ -1,12 +1,20 @@
 package com.example.servingwebcontent.place;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import com.example.servingwebcontent.event.Event;
+import jakarta.persistence.*;
 import jakarta.validation.constraints.NotNull;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+import java.util.List;
 
 @Entity
+@AllArgsConstructor
+@NoArgsConstructor
+@Getter
+@Setter
 public class Place {
     // id
     @Id // - primary key
@@ -24,4 +32,8 @@ public class Place {
     // city
     @NotNull
     private String city;
+
+    // getEvents() -
+    @OneToMany(mappedBy = "place") // place field in Event
+    private List<Event> events;
 }

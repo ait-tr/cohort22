@@ -43,10 +43,9 @@ public class EventsController {
 
     // POST /events
     @PostMapping(value = "")
-    public void createEvent(@RequestBody EventDTO eventDTO)
+    public int createEvent(@RequestBody NewEventDTO newEventDTO)
     {
-        // eventDTO from API - EventDTO
-        service.createEvent(eventDTO);
+        return service.createEvent(newEventDTO);
     }
 
     // HTTP Method: DELETE
@@ -71,9 +70,11 @@ public class EventsController {
      }
     */
     @PutMapping(value = "/{id}")
-    public void updateEvent(@PathVariable int id, @RequestBody EventDTO eventDTO)
+    public void updateEvent(@PathVariable int id, @RequestBody NewEventDTO eventDTO)
     {
         service.updateEvent(id, eventDTO);
     }
 
+
+    // URL events/by-place/{id}
 }

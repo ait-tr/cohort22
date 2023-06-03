@@ -23,4 +23,10 @@ logging.level.org.hibernate.orm.jdbc.bind=trace
     - Сделать контроллер для добавления и просмотра(GET genres/{id} и POST genres)
 2. Связать через @OneToMany и @ManyToOne Genre и Artist
 3. Построить ER-диаграмму в workbench
+4. Переписать Endpoint API для добавления(post) и обвновления(put) Atrist. Он должен принимать имя артиста и id жанра
+5. Сделать Endpoint API который вернет всех артистов для genre_id /genre/{id}/artists
 
+Доп. занятие:
+
+- Связать Artist с Event.
+    - Переписать Endpoint API для добавления(post) и обновления(put) Event. Теперь он должен принимать имя, placeId и artistId

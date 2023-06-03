@@ -1,5 +1,6 @@
 package com.example.servingwebcontent.event;
 
+import com.example.servingwebcontent.place.Place;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotNull;
 import lombok.AllArgsConstructor;
@@ -21,6 +22,8 @@ public class Event {
     @NotNull
     private String name;
 
+    // Owner - who hold id to another table
     @NotNull
-    private String city; // TODO: replace to place
+    @ManyToOne
+    private Place place; // column place_id == place.id
 }

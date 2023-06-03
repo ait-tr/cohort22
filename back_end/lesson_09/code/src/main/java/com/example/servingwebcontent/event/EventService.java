@@ -1,6 +1,10 @@
 package com.example.servingwebcontent.event;
 
+import com.example.servingwebcontent.place.Place;
+import com.example.servingwebcontent.place.PlaceController;
+import com.example.servingwebcontent.place.PlaceRepository;
 import org.modelmapper.ModelMapper;
+import org.modelmapper.TypeToken;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -14,6 +18,7 @@ public class EventService {
     private static final ModelMapper modelMapper = new ModelMapper();
 
     private EventRepository eventRepository;
+    private PlaceRepository placeRepository;
 
     @Autowired
     public void setEventRepository(EventRepository eventRepository)
@@ -21,22 +26,21 @@ public class EventService {
         this.eventRepository = eventRepository;
     }
 
+    @Autowired
+    public void setPlaceRepository(PlaceRepository placeRepository)
+    {
+        this.placeRepository = placeRepository;
+    }
+
     public List<EventDTO> getEvents(String cityFilter)
     {
-        // eventRepository.findAll()
-        //eventRepository.deleteAll();
-
-        Iterable<Event> allEvents = eventRepository.findAll(); // Get all events from database
-
-        ///
-        List<EventDTO> result = new ArrayList<EventDTO>();
-        for (Event event : allEvents)
-        {
-            // Mapping Entity to DTO
-            // Hide ID
-            EventDTO eventDTO = new EventDTO(event.getName(), event.getCity());
-            result.add(eventDTO);
-        }
+        // 1. Get entity
+        List<Event> allEvents = eventRepository.findAll(); // Get all events from database
+        // 2. Move data to DTOs
+        // map(1-st, 2-d)
+        // 1-s source - allEvents - list of entity
+        // 2-d type to convert - List<EventDTO>
+        List<EventDTO> result = modelMapper.map(allEvents, new TypeToken<List<EventDTO>>(){}.getType());
         return result;
     }
 
@@ -70,6 +74,25 @@ public class EventService {
         eventRepository.deleteById(id); // deleteById - from CrudRepository
     }
 
+    // NewEventDTO - name and id of place
+    public int createEvent(NewEventDTO newEventDTO)
+    {
+        int placeId = newEventDTO.getPlaceId();
+        // Get Entity Place
+        Place place = placeRepository.findById(placeId).get();
+
+        // New Entity Event
+        Event event = new Event();
+        event.setName(newEventDTO.getName()); // Get name from dto and put it to Entity
+
+        // Add place to Event
+        event.setPlace(place); // MAIN LINE
+
+        // Save to database
+        return eventRepository.save(event).getId();
+    }
+
+    /**
     public void createEvent(EventDTO eventDTO)
     {
         // Put data from eventDTO in Event(Entity) for DB
@@ -86,20 +109,38 @@ public class EventService {
         eventRepository.save(event); // CrudRepository
         //return eventDTO;
     }
+    **/
 
     // Update entity with id with data eventDTO
-    public void updateEvent(int id, EventDTO eventDTO)
+    public void updateEvent(int id, NewEventDTO eventDTO)
     {
+        // 1. Get from database
         // Get entity from database by ID
         Optional<Event> eventOptional = eventRepository.findById(id);
         Event event = eventOptional.get(); // TODO: check optinal
 
-        // Update data
+        // 2. Update with new data
         event.setName(eventDTO.getName());
-        event.setCity(eventDTO.getCity());
 
-        // Save to database
+        Place place = placeRepository.findById(eventDTO.getPlaceId()).get();
+
+        event.setPlace(place);
+        // 3. Save to database
         eventRepository.save(event);
+    }
+
+    // Return all events for place(with placeId)
+    public List<EventDTO> getEventsByPlace(int placeId)
+    {
+        Place place = placeRepository.findById(placeId).get();
+        List<Event> eventsForPlace = place.getEvents(); // getEvents() - SQL for that place event
+
+        // Put data from entity to dto
+        // modelMapper.map(source, Class/Type)
+
+        // eventsForPlace -> List<EventDTO>
+        List<EventDTO> result = modelMapper.map(eventsForPlace, new TypeToken<List<EventDTO>>(){}.getType());
+        return result;
     }
 
 }
