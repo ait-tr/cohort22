@@ -1,6 +1,5 @@
-package com.example.servingwebcontent.artist;
+package com.example.servingwebcontent.genre;
 
-import com.example.servingwebcontent.genre.GenreDTO;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -8,9 +7,8 @@ import lombok.Setter;
 
 @AllArgsConstructor
 @NoArgsConstructor
-@Setter
 @Getter
-public class ArtistDTO {
+@Setter
+public class NewGenreDTO {
     private String name;
-    private GenreDTO genre;
 }

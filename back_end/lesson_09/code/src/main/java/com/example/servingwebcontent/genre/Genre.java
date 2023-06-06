@@ -22,4 +22,7 @@ public class Genre {
 
     @NotNull // mysql: not null
     private String name;
+
+    //@OneToMany(mappedBy = "place")
+    //private List<Event> events;
 }

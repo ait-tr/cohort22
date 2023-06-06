@@ -1,5 +1,7 @@
 package com.example.servingwebcontent.artist;
 
+import com.example.servingwebcontent.genre.Genre;
+import com.example.servingwebcontent.genre.GenreRepository;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -17,12 +19,19 @@ import java.util.List;
 @Service
 public class ArtistService {
     private ArtistRepository artistRepository;
+    private GenreRepository genreRepository;
     private static final ModelMapper mapper = new ModelMapper();
 
     @Autowired
     void setArtistRepository(ArtistRepository artistRepository)
     {
         this.artistRepository = artistRepository;
+    }
+
+    @Autowired
+    void setGenreRepository(GenreRepository genreRepository)
+    {
+        this.genreRepository = genreRepository;
     }
 
     public List<ArtistDTO> artistList()
@@ -37,7 +46,7 @@ public class ArtistService {
         {
             ArtistDTO artistDTO = new ArtistDTO();
             artistDTO.setName(artist.getName());
-            artistDTO.setGenre(artist.getGenre());
+            //artistDTO.setGenre(artist.getGenre());
 
             // Add to list
             result.add(artistDTO);
@@ -51,36 +60,28 @@ public class ArtistService {
     // Response: Entity -> DTO -> Swagger
     public ArtistDTO getArtist(int id)
     {
-        // Get from database
-
-        // Equal for
-        // Optional<Artist> artistOpt = artistRepository.findById(id);
-        // Artist artist = artistOpt.get();
 
         Artist artist = artistRepository.findById(id).get(); // TODO: handle not found
-
-        // Copy data from Entity(db) to ArtistDTO(presentation layer)
-        ArtistDTO result = new ArtistDTO();
-        result.setName(artist.getName());
-        result.setGenre(artist.getGenre());
-
-        return result;
+        return mapper.map(artist, ArtistDTO.class);
     }
 
-    public int createArtist(ArtistDTO artistDTO)
+    public int createArtist(NewArtistDTO artistDTO)
     {
-        // ArtistDTO(dto) -> Artist(Entity)
-        Artist artist = mapper.map(artistDTO, Artist.class);
-        // artist ID==0 Id not selected
+        // name, genreId
+        // 1. Get Genre entity
+        int genreId = artistDTO.getGenreId();
+        Genre genre = genreRepository.findById(genreId).get(); // TODO: handle errors
 
-        // Save to database
-        // Generated new ID. 1
-        Artist saved = artistRepository.save(artist); // New id generated here
+        // 2. Create entity Artist
+        Artist artist = new Artist();
 
-        // saved now have a real
+        artist.setName(artistDTO.getName());
 
-        // Return ID
-        return saved.getId();
+        // 3. Add relation
+        artist.setGenre(genre);
+
+        // 3. Save to database
+        return  artistRepository.save(artist).getId();
     }
 
     public void deleteArtist(int id)
@@ -96,7 +97,7 @@ public class ArtistService {
         Artist artist = artistRepository.findById(id).get(); // TODO: handle not found
         // Update values
         artist.setName(artistDTO.getName());
-        artist.setGenre(artistDTO.getGenre());
+        //artist.setGenre(artistDTO.getGenre());
 
         // Save to the database
         artistRepository.save(artist);

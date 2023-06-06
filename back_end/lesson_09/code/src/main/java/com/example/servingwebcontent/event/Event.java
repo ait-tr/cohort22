@@ -1,5 +1,6 @@
 package com.example.servingwebcontent.event;
 
+import com.example.servingwebcontent.artist.Artist;
 import com.example.servingwebcontent.place.Place;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotNull;
@@ -26,4 +27,10 @@ public class Event {
     @NotNull
     @ManyToOne
     private Place place; // column place_id == place.id
+
+    @ManyToOne
+    // name = artist_id - artist_id column in table event,
+    // referencedColumnName = id - column in table artist
+    @JoinColumn(name = "artist_ref_id", referencedColumnName = "id")
+    private Artist artist;
 }

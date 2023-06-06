@@ -1,5 +1,6 @@
 package com.example.servingwebcontent.artist;
 
+import com.example.servingwebcontent.event.NewEventDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -49,9 +50,8 @@ public class ArtistController {
      * }
      */
     @PostMapping(value = "")
-    public int createArtist(@RequestBody ArtistDTO artistDTO)
+    public int createArtist(@RequestBody NewArtistDTO artistDTO)
     {
-        // TODO: Save Artist to database
         int id = artistService.createArtist(artistDTO);
         return id;
     }
