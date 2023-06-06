@@ -1,0 +1,32 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+	"code": [
+		"code/src/main/java/com/example/servingwebcontent/ServingWebContentApplication.java",
+		"code/src/main/java/com/example/servingwebcontent/artist/Artist.java",
+		"code/src/main/java/com/example/servingwebcontent/artist/ArtistController.java",
+		"code/src/main/java/com/example/servingwebcontent/artist/ArtistDTO.java",
+		"code/src/main/java/com/example/servingwebcontent/artist/ArtistRepository.java",
+		"code/src/main/java/com/example/servingwebcontent/artist/ArtistService.java",
+		"code/src/main/java/com/example/servingwebcontent/artist/NewArtistDTO.java",
+		"code/src/main/java/com/example/servingwebcontent/event/Event.java",
+		"code/src/main/java/com/example/servingwebcontent/event/EventDTO.java",
+		"code/src/main/java/com/example/servingwebcontent/event/EventRepository.java",
+		"code/src/main/java/com/example/servingwebcontent/event/EventService.java",
+		"code/src/main/java/com/example/servingwebcontent/event/EventsController.java",
+		"code/src/main/java/com/example/servingwebcontent/event/NewEventDTO.java",
+		"code/src/main/java/com/example/servingwebcontent/genre/Genre.java",
+		"code/src/main/java/com/example/servingwebcontent/genre/GenreController.java",
+		"code/src/main/java/com/example/servingwebcontent/genre/GenreDTO.java",
+		"code/src/main/java/com/example/servingwebcontent/genre/GenreRepository.java",
+		"code/src/main/java/com/example/servingwebcontent/genre/GenreService.java",
+		"code/src/main/java/com/example/servingwebcontent/genre/NewGenreDTO.java",
+		"code/src/main/java/com/example/servingwebcontent/place/NewPlaceDTO.java",
+		"code/src/main/java/com/example/servingwebcontent/place/Place.java",
+		"code/src/main/java/com/example/servingwebcontent/place/PlaceController.java",
+		"code/src/main/java/com/example/servingwebcontent/place/PlaceDTO.java",
+		"code/src/main/java/com/example/servingwebcontent/place/PlaceRepository.java",
+		"code/src/main/java/com/example/servingwebcontent/place/PlaceService.java"
+	]
+}
