@@ -1,5 +1,5 @@
 Plan
 ====
 
-- Extend repository with cusom queries
+- Extend repository with custom queries
  
