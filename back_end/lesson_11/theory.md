@@ -43,6 +43,7 @@ public interface UserRepository extends Repository<User, Long> {
 Ссылки:
 
 - [Spring doc](https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#repositories.query-methods)
+- [Query Creation](https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#jpa.query-methods.query-creation)
 - [Guide](https://www.javaguides.net/2018/11/spring-data-jpa-query-creation-from-method-names.html)
 - [Guide2](https://www.baeldung.com/spring-data-derived-queries)
 
