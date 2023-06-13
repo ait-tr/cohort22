@@ -4,18 +4,18 @@
 
 ## Слоенная архитектура
 
-![image](https://raw.githubusercontent.com/ait-tr/cohort22/main/basic_programming/lesson_13/img/3.png)
+![image](https://raw.githubusercontent.com/ait-tr/cohort22/main/back_end/lesson_13/img/3.png)
 
 ## Безопасность в приложении
 
-![image](https://raw.githubusercontent.com/ait-tr/cohort22/main/basic_programming/lesson_13/img/1.png)
+![image](https://raw.githubusercontent.com/ait-tr/cohort22/main/back_end/lesson_13/img/1.png)
 
 * Аутентификация - мы сообщаем приложению, кто мы такие.
 * Авторизация - приложение проверяет, какие есть у нас права.
 
 ## Аутентификация на основе сессий
 
-![image](https://raw.githubusercontent.com/ait-tr/cohort22/main/basic_programming/lesson_13/img/2.png)
+![image](https://raw.githubusercontent.com/ait-tr/cohort22/main/back_end/lesson_13/img/2.png)
 
 Сессия - это специальный объект, который хранится на сервере и позволяет связать цепочку
 разных HTTP-запросов между собой. Каждый запрос сопровождается идентификатором сессии. Сама сессия находится на сервере
@@ -44,7 +44,7 @@
 * `UserDetailsService` - интерфейс, который получает объект `UserDetails` по его `username`
 * В общих словах - этот сервис должен достать пользователя из базы данных по его имени
 
-![image](https://raw.githubusercontent.com/ait-tr/cohort22/main/basic_programming/lesson_13/img/4.png)
+![image](https://raw.githubusercontent.com/ait-tr/cohort22/main/back_end/lesson_13/img/4.png)
 
 ### Общая логика сравнения пароля и его хеша
 
